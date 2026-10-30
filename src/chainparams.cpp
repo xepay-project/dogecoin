@@ -128,7 +128,7 @@ public:
         digishieldConsensus.fSimplifiedRewards = true;
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
         digishieldConsensus.nPowTargetTimespan = 60; // post-digishield: 1 minute
-        digishieldConsensus.nCoinbaseMaturity = 240;
+        digishieldConsensus.nCoinbaseMaturity = 150;
 
         // Blocks 371337+ are AuxPoW
         auxpowConsensus = digishieldConsensus;
@@ -145,11 +145,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xc0;
-        pchMessageStart[1] = 0xc0;
-        pchMessageStart[2] = 0xc0;
-        pchMessageStart[3] = 0xc0;
-        nDefaultPort = 22556;
+        pchMessageStart[0] = 0xad;
+        pchMessageStart[1] = 0xda;
+        pchMessageStart[2] = 0xbd;
+        pchMessageStart[3] = 0xdb;
+        nDefaultPort = 7855;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1386325540, 99943, 0x1e0ffff0, 1, 50 * COIN);
@@ -161,8 +161,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("multidoge.org", "seed.multidoge.org", true));
-        vSeeds.push_back(CDNSSeedData("multidoge.org", "seed2.multidoge.org"));
+        // vSeeds.push_back(CDNSSeedData("multidoge.org", "seed.multidoge.org", true));
+        // vSeeds.push_back(CDNSSeedData("multidoge.org", "seed2.multidoge.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,22);
@@ -263,7 +263,7 @@ public:
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
         digishieldConsensus.fSimplifiedRewards = true;
         digishieldConsensus.fPowAllowMinDifficultyBlocks = false;
-        digishieldConsensus.nCoinbaseMaturity = 240;
+        digishieldConsensus.nCoinbaseMaturity = 150;
 
         // Blocks 157500 - 158099 are Digishield with minimum difficulty on all blocks
         minDifficultyConsensus = digishieldConsensus;
@@ -283,11 +283,11 @@ public:
         digishieldConsensus.pRight = &minDifficultyConsensus;
         minDifficultyConsensus.pRight = &auxpowConsensus;
 
-        pchMessageStart[0] = 0xfc;
-        pchMessageStart[1] = 0xc1;
-        pchMessageStart[2] = 0xb7;
-        pchMessageStart[3] = 0xdc;
-        nDefaultPort = 44556;
+        pchMessageStart[0] = 0xac;
+        pchMessageStart[1] = 0xce;
+        pchMessageStart[2] = 0xed;
+        pchMessageStart[3] = 0xcd;
+        nDefaultPort = 8355;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1391503289, 997879, 0x1e0ffff0, 1, 50 * COIN);
@@ -396,11 +396,11 @@ public:
         digishieldConsensus.pRight = &auxpowConsensus;
         pConsensusRoot = &digishieldConsensus;
 
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0xda;
-        nDefaultPort = 18444;
+        pchMessageStart[0] = 0xfe;
+        pchMessageStart[1] = 0xda;
+        pchMessageStart[2] = 0xba;
+        pchMessageStart[3] = 0xfb;
+        nDefaultPort = 15444;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1296688602, 2, 0x207fffff, 1, 50 * COIN);

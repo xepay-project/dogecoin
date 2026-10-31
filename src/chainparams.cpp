@@ -96,27 +96,22 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
 
-        // Deployment of BIP68, BIP112, and BIP113.
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1462060800; // May 1st, 2016
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1493596800; // May 1st, 2017
 
-        // Deployment of SegWit (BIP141, BIP143, and BIP147)
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1479168000; // November 15th, 2016.
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
-        // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000e993d2aa86cf246a49b"); // 5,050,000
         consensus.defaultAssumeValid = uint256S("0xe7d4577405223918491477db725a393bcfc349d8ee63b0a4fde23cbfbfd81dea"); // 5,050,000
 
-        // AuxPoW parameters
         consensus.nAuxpowChainId = 0x0062;
         consensus.fStrictChainId = true;
         consensus.fAllowLegacyBlocks = true;
         consensus.nHeightEffective = 0;
 
-        // Blocks 145000 - 371336 are Digishield without AuxPoW
         digishieldConsensus = consensus;
         digishieldConsensus.nHeightEffective = 145000;
         digishieldConsensus.fSimplifiedRewards = true;
@@ -124,12 +119,10 @@ public:
         digishieldConsensus.nPowTargetTimespan = 2.5 * 60; // post-digishield: 2.5 minute
         digishieldConsensus.nCoinbaseMaturity = 150;
 
-        // Blocks 371337+ are AuxPoW
         auxpowConsensus = digishieldConsensus;
         auxpowConsensus.nHeightEffective = 371337;
         auxpowConsensus.fAllowLegacyBlocks = true;
 
-        // Assemble the binary search tree of consensus parameters
         pConsensusRoot = &digishieldConsensus;
         digishieldConsensus.pLeft = &consensus;
         digishieldConsensus.pRight = &auxpowConsensus;

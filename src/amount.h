@@ -46,11 +46,11 @@ public:
     /** Constructor for a fee rate in satoshis per kB. The size in bytes must not exceed (2^63 - 1)*/
     CFeeRate(const CAmount& nFeePaid, size_t nBytes);
     /**
-     * Return the wallet fee in koinus for the given size in bytes.
+     * Return the wallet fee in aldians for the given size in bytes.
      */
     CAmount GetFee(size_t nBytes) const;
     /**
-     * Return the relay fee in koinus for the given size in bytes.
+     * Return the relay fee in aldians for the given size in bytes.
      */
     CAmount GetRelayFee(size_t nBytes) const;
     /**

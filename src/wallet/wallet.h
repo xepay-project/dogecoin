@@ -52,7 +52,7 @@ static const unsigned int DEFAULT_KEYPOOL_SIZE = 100;
 static const CAmount DEFAULT_TRANSACTION_FEE = RECOMMENDED_MIN_TX_FEE;
 //! -fallbackfee default
 //mlumin: 5/2021 scaled minimum, this likely will have to change for fee reduction
-//rnicoll: 8/2021 reduce to 1,000,000 Koinu
+//rnicoll: 8/2021 reduce to 1,000,000 Aldian
 static const CAmount DEFAULT_FALLBACK_FEE = RECOMMENDED_MIN_TX_FEE;
 //! -mintxfee default
 static const CAmount DEFAULT_TRANSACTION_MINFEE = RECOMMENDED_MIN_TX_FEE;

@@ -761,8 +761,8 @@
         <translation>Cette étiquette devient rouge si un destinataire reçoit un montant inférieur au seuil actuel de poussière.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu(s) per input.</source>
-        <translation>Peut varier +/- %1 koinu(s) par entrée.</translation>
+        <source>Can vary +/- %1 aldian(s) per input.</source>
+        <translation>Peut varier +/- %1 aldian(s) par entrée.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -777,8 +777,8 @@
         <translation>(monnaie)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
-        <translation>Peut varier de +/- %1 koinu par entrée.</translation>
+        <source>Can vary +/- %1 aldian per input.</source>
+        <translation>Peut varier de +/- %1 aldian par entrée.</translation>
     </message>
 </context>
 <context>
@@ -2780,8 +2780,8 @@ Utilisez cette fonctionnalité avec une extrême prudence.</translation>
         <translation>L&apos;utilisation de fallbackfee peut entraîner l&apos;envoi d&apos;une transaction dont la confirmation prendra plusieurs heures ou jours (voire jamais). Pensez à choisir vos frais manuellement ou attendez d&apos;avoir validé la chaîne complète.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si les frais personnalisés sont fixés à 1000 koinu et que la transaction ne représente que 250 octets, alors l&apos;option &quot;par kilo-octets&quot; ne paie que 250 koinu de frais, tandis que l&apos;option &quot;total au moins&quot; paie 1000 koinu. Pour les transactions supérieures à un kilo-octet, les deux options paient par kilo-octets.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si les frais personnalisés sont fixés à 1000 aldian et que la transaction ne représente que 250 octets, alors l&apos;option &quot;par kilo-octets&quot; ne paie que 250 aldian de frais, tandis que l&apos;option &quot;total au moins&quot; paie 1000 aldian. Pour les transactions supérieures à un kilo-octet, les deux options paient par kilo-octets.</translation>
     </message>
 </context>
 <context>

@@ -110,7 +110,7 @@ class P2PPolicyTests(BitcoinTestFramework):
         self.nodes[0].generate(101)
 
         ### test constants ###
-        koinu = Decimal("0.00000001")          # 1 Koinu expressed in DOGE
+        aldian = Decimal("0.00000001")          # 1 Aldian expressed in DOGE
         ten = Decimal("10.0")                  # uniform 10 DOGE seed moneys
 
         ### parameters from fee policy ###
@@ -138,7 +138,7 @@ class P2PPolicyTests(BitcoinTestFramework):
         tx = self.run_relay_test(output, None, 192)
 
         # test too low relay fee rate
-        output = { self.tgtAddr: ten - relay_fee_per_byte * 192 + koinu }
+        output = { self.tgtAddr: ten - relay_fee_per_byte * 192 + aldian }
         tx = self.run_relay_test(output, 66, 192) # 66 = too low fee
 
         # test exact dust limit
@@ -147,26 +147,26 @@ class P2PPolicyTests(BitcoinTestFramework):
         self.run_relay_test(output, None, 225)
 
         # test soft dust limit with sufficient fee
-        amount = soft_dust_limit - koinu
+        amount = soft_dust_limit - aldian
         change = ten - amount - relay_fee_per_byte * 225 - soft_dust_limit
         output = { self.tgtAddr : amount, self.srcAddr: change }
         self.run_relay_test(output, None, 225)
 
         # test soft dust limit with insufficient fee
-        amount = soft_dust_limit - koinu
-        change = ten - amount - relay_fee_per_byte * 225 - soft_dust_limit + koinu
+        amount = soft_dust_limit - aldian
+        change = ten - amount - relay_fee_per_byte * 225 - soft_dust_limit + aldian
         output = { self.tgtAddr : amount, self.srcAddr: change }
         self.run_relay_test(output, 66, 225)
 
-        # test a 1 koinu output with sufficient fee
-        amount = koinu
+        # test a 1 aldian output with sufficient fee
+        amount = aldian
         change = ten - amount - relay_fee_per_byte * 225 - soft_dust_limit
         output = { self.tgtAddr : amount, self.srcAddr: change }
         self.run_relay_test(output, 64, 225) # 64 = dust
 
-        # test a 1 koinu output with insufficient fee
-        amount = koinu
-        change = ten - amount - relay_fee_per_byte * 225 - soft_dust_limit + koinu
+        # test a 1 aldian output with insufficient fee
+        amount = aldian
+        change = ten - amount - relay_fee_per_byte * 225 - soft_dust_limit + aldian
         output = { self.tgtAddr : amount, self.srcAddr: change }
         self.run_relay_test(output, 64, 225)
 

@@ -238,7 +238,7 @@ class ImportRescanTest(BitcoinTestFramework):
         self.nodes[0].sendtoaddress(address, 100)
 
         # generate two blocks
-        # the first contains the tx that sends these koinu
+        # the first contains the tx that sends these aldian
         # the second is after it
         self.nodes[0].generate(2)
         new_height = self.nodes[0].getblockcount()
@@ -269,7 +269,7 @@ class ImportRescanTest(BitcoinTestFramework):
         self.nodes[0].sendtoaddress(address, 100)
 
         # generate two blocks
-        # the first contains the tx that sends these koinu
+        # the first contains the tx that sends these aldian
         # the second is after it
         self.nodes[0].generate(2)
         new_height = self.nodes[0].getblockcount()

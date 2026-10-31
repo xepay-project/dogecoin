@@ -692,7 +692,7 @@ BOOST_AUTO_TEST_CASE(test_IsStandard)
     t.vout[0].nValue = COIN;
     BOOST_CHECK(IsStandardTx(t, reason));
 
-    // Non-standard (1 koinu):
+    // Non-standard (1 aldian):
     t.vout[0].nValue = 1;
     BOOST_CHECK(!IsStandardTx(t, reason));
 

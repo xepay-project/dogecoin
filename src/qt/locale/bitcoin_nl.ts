@@ -762,8 +762,8 @@
         <translation>(wijzig)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
-        <translation>Kan per input +/- %1 koinu varieren.</translation>
+        <source>Can vary +/- %1 aldian per input.</source>
+        <translation>Kan per input +/- %1 aldian varieren.</translation>
     </message>
 </context>
 <context>
@@ -2713,8 +2713,8 @@ Gebruik deze functie met extreme voorzichtigheid.</translation>
         <translation>Het gebruik van de terugvalvergoeding kan resulteren in het verzenden van een transactie die enkele uren of dagen (of nooit) nodig heeft om te bevestigen. Overweeg om uw tarief handmatig te kiezen of wacht tot u de volledige keten heeft gevalideerd.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 koinu en de transactie slechts 250 bytes is, betaalt u &quot;per kilobyte&quot;  slechts 250 koinu aan kosten, wanneer &quot;minimaal&quot; 1000 koinu betaald. Voor transacties groter dan een kilobyte betaalt u in beide gevallen per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 aldian en de transactie slechts 250 bytes is, betaalt u &quot;per kilobyte&quot;  slechts 250 aldian aan kosten, wanneer &quot;minimaal&quot; 1000 aldian betaald. Voor transacties groter dan een kilobyte betaalt u in beide gevallen per kilobyte.</translation>
     </message>
 </context>
 <context>

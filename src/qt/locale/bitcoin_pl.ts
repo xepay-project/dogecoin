@@ -760,8 +760,8 @@
         <translation>Ta etykieta staje się czerwona jeżeli którykolwiek odbiorca otrzymuje kwotę mniejszą niż obecny próg pyłu.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu(s) per input.</source>
-        <translation type="vanished">Waha się +/- %1 koinu na wejście.</translation>
+        <source>Can vary +/- %1 aldian(s) per input.</source>
+        <translation type="vanished">Waha się +/- %1 aldian na wejście.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -776,8 +776,8 @@
         <translation>(reszta)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
-        <translation>Waha się +/- %1 koinu za wejście.</translation>
+        <source>Can vary +/- %1 aldian per input.</source>
+        <translation>Waha się +/- %1 aldian za wejście.</translation>
     </message>
 </context>
 <context>
@@ -2535,8 +2535,8 @@ Use this functionality with extreme caution.</source>
         <translation>za kilobajt</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jeżeli własna opłata zostanie ustawiona na 1000 koinu, a transakcja będzie miała tylko 250 bajtów, to &quot;za kilobajt&quot; płaci tylko 250 koinu, podczas gdy, &quot;razem przynajmniej&quot; płaci 1000 koinu. Przy transakcjach większych niż kilobajt, w obu przypadkach płaci za każdy kilobajt.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Jeżeli własna opłata zostanie ustawiona na 1000 aldian, a transakcja będzie miała tylko 250 bajtów, to &quot;za kilobajt&quot; płaci tylko 250 aldian, podczas gdy, &quot;razem przynajmniej&quot; płaci 1000 aldian. Przy transakcjach większych niż kilobajt, w obu przypadkach płaci za każdy kilobajt.</translation>
     </message>
     <message>
         <source>Hide</source>

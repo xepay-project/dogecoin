@@ -776,7 +776,7 @@
         <translation>(zmena)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2540,8 +2540,8 @@ Use this functionality with extreme caution.</source>
         <translation>za kilobajt</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ak je poplatok nastavený na 1000 koinu a transakcia je veľká len 250 bajtov, potom &quot;za kilobajt&quot; zaplatí poplatok 250 koinu, ale &quot;spolu aspoň&quot; zaplatí 1000 koinu. Pre transakcie väčšie ako kilobajt platia oba spôsoby za každý kilobajt.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ak je poplatok nastavený na 1000 aldian a transakcia je veľká len 250 bajtov, potom &quot;za kilobajt&quot; zaplatí poplatok 250 aldian, ale &quot;spolu aspoň&quot; zaplatí 1000 aldian. Pre transakcie väčšie ako kilobajt platia oba spôsoby za každý kilobajt.</translation>
     </message>
     <message>
         <source>Hide</source>

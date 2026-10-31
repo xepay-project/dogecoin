@@ -750,8 +750,8 @@
         <translation>Diese Bezeichnung wird rot, wenn irgendein Empfänger einen Betrag kleiner als die derzeitige &quot;Staubgrenze&quot; erhält.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu(s) per input.</source>
-        <translation type="vanished">Kann pro Eingabe um +/- %1 Koinu(s) abweichen.</translation>
+        <source>Can vary +/- %1 aldian(s) per input.</source>
+        <translation type="vanished">Kann pro Eingabe um +/- %1 Aldian(s) abweichen.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -766,7 +766,7 @@
         <translation>(Wechselgeld)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2717,7 +2717,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

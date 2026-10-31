@@ -748,8 +748,8 @@
         <translation>当任何一个收款金额小于目前的零散金额上限时，文字会变红色。</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu(s) per input.</source>
-        <translation type="vanished">每组输入可能有 +/- %1 个 koinu 的误差。</translation>
+        <source>Can vary +/- %1 aldian(s) per input.</source>
+        <translation type="vanished">每组输入可能有 +/- %1 个 aldian 的误差。</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -764,8 +764,8 @@
         <translation>(找零)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
-        <translation>每组输入可能有 +/- %1 个 koinu 的误差。</translation>
+        <source>Can vary +/- %1 aldian per input.</source>
+        <translation>每组输入可能有 +/- %1 个 aldian 的误差。</translation>
     </message>
 </context>
 <context>
@@ -2712,8 +2712,8 @@ Use this functionality with extreme caution.</source>
         <translation>用后备费用可能需要几小时或几天才能确认交易，或永远不会。考虑手动选择费用或等到您验证完区块链。</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>如果自定义费用设为 1000 koinu，并且交易有 250 字节，那么“每千字节”需支付 250 koinu 费用，而“总计”支付 1000 koinu。 对于大于 1 KB 的交易，两个算法都按 KB 支付。</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>如果自定义费用设为 1000 aldian，并且交易有 250 字节，那么“每千字节”需支付 250 aldian 费用，而“总计”支付 1000 aldian。 对于大于 1 KB 的交易，两个算法都按 KB 支付。</translation>
     </message>
 </context>
 <context>

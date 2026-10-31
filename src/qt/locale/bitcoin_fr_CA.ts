@@ -750,8 +750,8 @@
         <translation>Cette étiquette devient rouge si un destinataire reçoit un montant inférieur au seuil actuel de poussière.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
-        <translation>Peut varier +/- %1 koinu(s) par entrée.</translation>
+        <source>Can vary +/- %1 aldian per input.</source>
+        <translation>Peut varier +/- %1 aldian(s) par entrée.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2533,7 +2533,7 @@ Utilisez cette fonctionnalité avec une extrême prudence.</translation>
         <translation>Cacher</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>Si le tarif personnalisé est fixé à 1000 satoshis et que la transaction n&apos;est que de 250 octets, alors le tarif &quot;par kilooctet&quot; ne paie que 250 satoshis, tandis que le tarif &quot;total au moins&quot; paie 1000 satoshis. Pour les transactions supérieures à un kilooctet, les deux payent par kilooctet.</translation>
     </message>
     <message>

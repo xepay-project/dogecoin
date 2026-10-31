@@ -763,7 +763,7 @@ Var vänlig och försök igen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2522,8 +2522,8 @@ Use this functionality with extreme caution.</source>
         <translation>per kilobyte</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om den anpassad avgiften är satt till 1000 koinu och transaktionen bara är 250 byte, betalar &quot;per kilobyte&quot; bara 250 koinu i avgift, medans &quot;totalt minst&quot; betalar 1000 koinu. För transaktioner större än en kilobyte betalar både per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om den anpassad avgiften är satt till 1000 aldian och transaktionen bara är 250 byte, betalar &quot;per kilobyte&quot; bara 250 aldian i avgift, medans &quot;totalt minst&quot; betalar 1000 aldian. För transaktioner större än en kilobyte betalar både per kilobyte.</translation>
     </message>
     <message>
         <source>Hide</source>

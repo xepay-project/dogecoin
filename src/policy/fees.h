@@ -213,11 +213,11 @@ static const double MIN_SUCCESS_PCT = .8;
  */
 static const double SUFFICIENT_FEETXS = 0.1;
 
-// Minimum and Maximum values for tracking feerates, in koinu per kB
-static constexpr double MIN_FEERATE = COIN / 1000.0;  //!< 100,000 - equals 100 koinu per byte
-static const double MAX_FEERATE = COIN * 10.0;    //!< 1000,000,000 koinu - equals 10 DOGE/kb
+// Minimum and Maximum values for tracking feerates, in aldian per kB
+static constexpr double MIN_FEERATE = COIN / 1000.0;  //!< 100,000 - equals 100 aldian per byte
+static const double MAX_FEERATE = COIN * 10.0;    //!< 1000,000,000 aldian - equals 10 DOGE/kb
 
-// Feerate and priority for the upper border of the highest bucket, in koinu per kB
+// Feerate and priority for the upper border of the highest bucket, in aldian per kB
 static const double INF_FEERATE = MAX_MONEY;
 static const double INF_PRIORITY = 1e9 * MAX_MONEY;
 

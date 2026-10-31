@@ -762,8 +762,8 @@
         <translation>(resto)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
-        <translation>Può variare di +/- %1 koinu per input.</translation>
+        <source>Can vary +/- %1 aldian per input.</source>
+        <translation>Può variare di +/- %1 aldian per input.</translation>
     </message>
 </context>
 <context>
@@ -2712,8 +2712,8 @@ Use this functionality with extreme caution.</source>
         <translation>L&apos;utilizzo del fallbackfee (commissione di transazione di riserva) può causare l&apos;invio di transazioni che impiegano ore o giorni prima di essere confermate. Considera la possibilitá di scegliere le commissioni di transazione manualmente o di attendere che l&apos;intera chain sia stata convalidata.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se la commissione di transazione è impostata su 1000 koinu e la transazione è solo 250 bytes, la commissione sarà solamente di 250 koinu per kilobyte, mentre il totale sarà di almeno 1000 koinu. Per transazioni più grandi di un kilobyte entrambi pagano per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se la commissione di transazione è impostata su 1000 aldian e la transazione è solo 250 bytes, la commissione sarà solamente di 250 aldian per kilobyte, mentre il totale sarà di almeno 1000 aldian. Per transazioni più grandi di un kilobyte entrambi pagano per kilobyte.</translation>
     </message>
 </context>
 <context>

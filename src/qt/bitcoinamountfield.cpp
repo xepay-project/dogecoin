@@ -26,7 +26,7 @@ public:
     explicit AmountSpinBox(QWidget *parent):
         QAbstractSpinBox(parent),
         currentUnit(BitcoinUnits::BTC),
-        singleStep(100000000) // koinu
+        singleStep(100000000) // aldian
     {
         setAlignment(Qt::AlignRight);
 

@@ -755,7 +755,7 @@
         <translation>수령인이 현재 더스트 임계값보다 적은 양을 수신하면 이 라벨이 빨간색으로 변합니다.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu(s) per input.</source>
+        <source>Can vary +/- %1 aldian(s) per input.</source>
         <translation type="vanished">입력마다 +/- %1 코이누가 변할 수 있습니다.</translation>
     </message>
     <message>
@@ -771,7 +771,7 @@
         <translation>(잔돈)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation>입력마다 +/- %1 코이누가 변할 수 있습니다.</translation>
     </message>
 </context>
@@ -2762,7 +2762,7 @@ Use this functionality with extreme caution.</source>
         <translation>fallback fee를 이용하게 되면 송금 확인은 몇시간, 혹은 몇일 (또는 영원히)걸릴 수 있습니다. 수동으로 fee를 설정하거나 블록체인 전체를 검증할때까지 기다려 보는 선택지를 생각 해주세요.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>사용자 정의 수수료가 1000 코이누로 설정되고 트랜잭션이 250바이트에 불과한 경우 &quot;킬로바이트당&quot; 수수료로 250코이누만 지불하며 &quot;최소한 합계&quot; 는 1000코이누를 지불합니다. 1킬로바이트보다 큰 트랜잭션의 경우 둘 다 킬로바이트 단위로 지불합니다.</translation>
     </message>
 </context>

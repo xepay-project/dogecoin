@@ -762,8 +762,8 @@
         <translation>Essa etiqueta fica vermelha se algum destinatário receber uma quantidade menor que o limite de poeira atual.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
-        <translation>Pode variar +/- %1 koinu por input.</translation>
+        <source>Can vary +/- %1 aldian per input.</source>
+        <translation>Pode variar +/- %1 aldian por input.</translation>
     </message>
 </context>
 <context>
@@ -2518,8 +2518,8 @@ Use this functionality with extreme caution.</source>
         <translation>por kilobyte</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa personalizada estiver definida para 1.000 koinu e a transação é de apenas 250 bytes, então paga apenas 250 koinu &quot;por kilobyte&quot; na taxa, enquanto em &quot;total pelo menos&quot; paga 1.000 koinu. Para transações superiores a um kilobyte ambos pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa personalizada estiver definida para 1.000 aldian e a transação é de apenas 250 bytes, então paga apenas 250 aldian &quot;por kilobyte&quot; na taxa, enquanto em &quot;total pelo menos&quot; paga 1.000 aldian. Para transações superiores a um kilobyte ambos pagam por kilobyte.</translation>
     </message>
     <message>
         <source>Hide</source>

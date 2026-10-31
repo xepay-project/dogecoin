@@ -798,7 +798,7 @@
         <translation>Този етикет става червен, ако някой от получателите получи сума в размер по-малкък от сегашния прахов праг.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation>Може да варира +/- %1 коину на вход.</translation>
     </message>
 </context>
@@ -2753,7 +2753,7 @@ Use this functionality with extreme caution.</source>
         <translation>Адреса, който избрахте за ресто, не е част от този портфейл. Всички монети във вашия портфейл могат да бъдат изпратени до този адрес. Сигурни ли сте, че желаете това?</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -748,8 +748,8 @@
         <translation>Eğer herhangi bir alıcı mevcut toz eşiğinden daha düşük bir tutar alırsa bu etiket kırmızıya dönüşür.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu(s) per input.</source>
-        <translation type="vanished">Girdi başına +/- %1 koinu değişebilir.</translation>
+        <source>Can vary +/- %1 aldian(s) per input.</source>
+        <translation type="vanished">Girdi başına +/- %1 aldian değişebilir.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -764,7 +764,7 @@
         <translation>(para üstü)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2707,7 +2707,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

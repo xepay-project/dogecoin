@@ -758,7 +758,7 @@
         <translation>Este texto fica vermelho se qualquer destinatário receber uma quantidade menor que a poeira.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu(s) per input.</source>
+        <source>Can vary +/- %1 aldian(s) per input.</source>
         <translation type="vanished">Pode variar +/- %1 moeda(s) por entrada</translation>
     </message>
     <message>
@@ -774,7 +774,7 @@
         <translation>(troco)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2529,8 +2529,8 @@ Use this functionality with extreme caution.</source>
         <translation>por kilobyte</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa personalizada for definida em 1000 koinu e a transação tiver somente 250 bytes, então &quot;por kilobyte&quot; somente paga 250 koinu de taxa, enquanto &quot;pelo menos&quot; paga 1000 koinu. Se a transação for maior que 1 kilobyte, ambos pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa personalizada for definida em 1000 aldian e a transação tiver somente 250 bytes, então &quot;por kilobyte&quot; somente paga 250 aldian de taxa, enquanto &quot;pelo menos&quot; paga 1000 aldian. Se a transação for maior que 1 kilobyte, ambos pagam por kilobyte.</translation>
     </message>
     <message>
         <source>Hide</source>

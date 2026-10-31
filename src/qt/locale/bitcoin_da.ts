@@ -750,8 +750,8 @@
         <translation>Denne mærkat bliver rød, hvis en eller flere modtagere modtager et beløb, der er mindre end den aktuelle støvgrænse.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu(s) per input.</source>
-        <translation type="vanished">Kan variere med ±%1 koinu per input.</translation>
+        <source>Can vary +/- %1 aldian(s) per input.</source>
+        <translation type="vanished">Kan variere med ±%1 aldian per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -766,7 +766,7 @@
         <translation>(byttepange)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2521,8 +2521,8 @@ Use this functionality with extreme caution.</source>
         <translation>pr. kilobyte</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis det brugertilpassede gebyr er sat til 1000 koinu, og transaktionen kun fylder 250 byte, betaler “pr. kilobyte” kun 250 koinu i gebyr, mens “total mindst” betaler 1000 koinu. For transaktioner større end en kilobyte betaler begge pr. kilobyte.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis det brugertilpassede gebyr er sat til 1000 aldian, og transaktionen kun fylder 250 byte, betaler “pr. kilobyte” kun 250 aldian i gebyr, mens “total mindst” betaler 1000 aldian. For transaktioner større end en kilobyte betaler begge pr. kilobyte.</translation>
     </message>
     <message>
         <source>Hide</source>

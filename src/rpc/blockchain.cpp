@@ -1597,7 +1597,7 @@ static UniValue getblockstats(const JSONRPCRequest& request)
     if (request.fHelp || request.params.size() < 1 || request.params.size() > 2) {
         throw std::runtime_error(
             "getblockstats hash ( stats )\n"
-            "\nCompute per block statistics for a given window. All amounts are in koinus.\n"
+            "\nCompute per block statistics for a given window. All amounts are in aldians.\n"
             "It won't work for some heights with pruning.\n"
             "\nArguments:\n"
             "1. \"hash\"               (string, required) The block hash of the target block\n"
@@ -1610,11 +1610,11 @@ static UniValue getblockstats(const JSONRPCRequest& request)
             "\nResult:\n"
             "{                           (json object)\n"
             "  \"avgfee\": xxxxx,          (numeric) Average fee in the block\n"
-            "  \"avgfeerate\": xxxxx,      (numeric) Average feerate (in koinu per byte)\n"
+            "  \"avgfeerate\": xxxxx,      (numeric) Average feerate (in aldian per byte)\n"
             "  \"avgtxsize\": xxxxx,       (numeric) Average transaction size\n"
             "  \"blockhash\": xxxxx,       (string) The block hash (to check for potential reorgs)\n"
             "  \"dustouts\": xxxxx,        (numeric) Number of outputs under the dust limit (excluding coinbase and OP_RETURN)\n"
-            "  \"feerate_percentiles\": [  (array of numeric) Feerates at the 10th, 25th, 50th, 75th, and 90th percentile weight unit (in koinu per byte)\n"
+            "  \"feerate_percentiles\": [  (array of numeric) Feerates at the 10th, 25th, 50th, 75th, and 90th percentile weight unit (in aldian per byte)\n"
             "      \"10th_percentile_feerate\",      (numeric) The 10th percentile feerate\n"
             "      \"25th_percentile_feerate\",      (numeric) The 25th percentile feerate\n"
             "      \"50th_percentile_feerate\",      (numeric) The 50th percentile feerate\n"
@@ -1624,14 +1624,14 @@ static UniValue getblockstats(const JSONRPCRequest& request)
             "  \"height\": xxxxx,          (numeric) The height of the block\n"
             "  \"ins\": xxxxx,             (numeric) The number of inputs (excluding coinbase)\n"
             "  \"maxfee\": xxxxx,          (numeric) Maximum fee in the block\n"
-            "  \"maxfeerate\": xxxxx,      (numeric) Maximum feerate (in koinu per byte)\n"
+            "  \"maxfeerate\": xxxxx,      (numeric) Maximum feerate (in aldian per byte)\n"
             "  \"maxoutamount\": xxxxx,    (numeric) Maximum output value (excluding coinbase and OP_RETURN)\n"
             "  \"maxtxsize\": xxxxx,       (numeric) Maximum transaction size\n"
             "  \"medianfee\": xxxxx,       (numeric) Truncated median fee in the block\n"
             "  \"mediantime\": xxxxx,      (numeric) The block median time past\n"
             "  \"mediantxsize\": xxxxx,    (numeric) Truncated median transaction size\n"
             "  \"minfee\": xxxxx,          (numeric) Minimum fee in the block\n"
-            "  \"minfeerate\": xxxxx,      (numeric) Minimum feerate (in koinu per byte)\n"
+            "  \"minfeerate\": xxxxx,      (numeric) Minimum feerate (in aldian per byte)\n"
             "  \"minoutamount\": xxxxx,    (numeric) Minimum output value (excluding coinbase and OP_RETURN)\n"
             "  \"mintxsize\": xxxxx,       (numeric) Minimum transaction size\n"
             "  \"outs\": xxxxx,            (numeric) The number of outputs\n"
@@ -1790,7 +1790,7 @@ static UniValue getblockstats(const JSONRPCRequest& request)
             minfee = std::min(minfee, txfee);
             totalfee += txfee;
 
-            CAmount feerate = tx_size ? txfee / tx_size : 0; // Unit: koinu/byte
+            CAmount feerate = tx_size ? txfee / tx_size : 0; // Unit: aldian/byte
             if (do_feerate_percentiles) {
                 feerate_array.emplace_back(std::make_pair(feerate, tx_size));
             }
@@ -1815,7 +1815,7 @@ static UniValue getblockstats(const JSONRPCRequest& request)
 
     UniValue ret_all(UniValue::VOBJ);
     ret_all.pushKV("avgfee", (block.vtx.size() > 1) ? totalfee / (block.vtx.size() - 1) : 0);
-    ret_all.pushKV("avgfeerate", total_size ? totalfee / total_size : 0); // Unit: koinu/byte
+    ret_all.pushKV("avgfeerate", total_size ? totalfee / total_size : 0); // Unit: aldian/byte
     ret_all.pushKV("avgtxsize", (block.vtx.size() > 1) ? total_size / (block.vtx.size() - 1) : 0);
     ret_all.pushKV("blockhash", pindex->GetBlockHash().GetHex());
     ret_all.pushKV("dustouts", dustouts);

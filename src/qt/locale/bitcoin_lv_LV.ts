@@ -348,7 +348,7 @@
     </message>
     <message>
         <source>Send coins to a Litonpay address</source>
-        <translation>Nosūtīt bitkoinu uz Litonpay adresi</translation>
+        <translation>Nosūtīt bitaldian uz Litonpay adresi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -755,7 +755,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1216,7 +1216,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot bitkoinu.</translation>
+        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot bitaldian.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1594,7 +1594,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sūtīt Dogekoinu</translation>
+        <translation type="unfinished">Sūtīt Dogealdian</translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -2459,7 +2459,7 @@ Use this functionality with extreme caution.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt Dogekoinu</translation>
+        <translation>Sūtīt Dogealdian</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2718,7 +2718,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3481,7 +3481,7 @@ Use this functionality with extreme caution.</source>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sūtīt Dogekoinu</translation>
+        <translation type="unfinished">Sūtīt Dogealdian</translation>
     </message>
 </context>
 <context>
@@ -3647,7 +3647,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nepietiek bitkoinu</translation>
+        <translation>Nepietiek bitaldian</translation>
     </message>
     <message>
         <source>Loading block index...</source>

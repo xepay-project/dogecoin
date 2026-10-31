@@ -754,8 +754,8 @@
         <translation>Aquesta etiqueta es torna vermella si cap recipient rep un import inferior al llindar de polsim actual.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu(s) per input.</source>
-        <translation type="vanished">Pot variar en +/- %1 koinu(s) per entrada.</translation>
+        <source>Can vary +/- %1 aldian(s) per input.</source>
+        <translation type="vanished">Pot variar en +/- %1 aldian(s) per entrada.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -770,7 +770,7 @@
         <translation>(canvia)</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 koinu per input.</source>
+        <source>Can vary +/- %1 aldian per input.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2525,8 +2525,8 @@ Use this functionality with extreme caution.</source>
         <translation>per kilobyte</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 koinu and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 koinu in fee, while &quot;total at least&quot; pays 1000 koinu. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comissió personalitzada es defineix a 1000 koinu i la transacció és de només 250 bytes, llavors «per kilobyte» només es paguen 250 koinu en una comissió, mentre que amb la de «total com a mínim» es pagarien 1000 koinu. Per a transaccions superiors al kilobyte, en tots dos casos es paga per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 aldian and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 aldian in fee, while &quot;total at least&quot; pays 1000 aldian. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comissió personalitzada es defineix a 1000 aldian i la transacció és de només 250 bytes, llavors «per kilobyte» només es paguen 250 aldian en una comissió, mentre que amb la de «total com a mínim» es pagarien 1000 aldian. Per a transaccions superiors al kilobyte, en tots dos casos es paga per kilobyte.</translation>
     </message>
     <message>
         <source>Hide</source>

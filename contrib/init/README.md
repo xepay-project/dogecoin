@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dogecoind.service
-Upstart: dogecoind.conf
-OpenRC:  dogecoind.openrc
-         dogecoind.openrcconf
-CentOS:  dogecoind.init
-OS X:    org.dogecoin.dogecoind.plist
+SystemD: litonpayd.service
+Upstart: litonpayd.conf
+OpenRC:  litonpayd.openrc
+         litonpayd.openrcconf
+CentOS:  litonpayd.init
+OS X:    org.litonpay.litonpayd.plist
 
 have been made available to assist packagers in creating node packages here.
 

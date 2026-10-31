@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=Dogecoin Core
-Comment=Connect to the Dogecoin P2P Network
-Comment[de]=Verbinde mit dem Dogecoin peer-to-peer Netzwerk
-Comment[fr]=Dogecoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Dogecoin, eşten eşe kriptografik sanal para birimi
-Exec=dogecoin-qt %u
+Name=Litonpay Core
+Comment=Connect to the Litonpay P2P Network
+Comment[de]=Verbinde mit dem Litonpay peer-to-peer Netzwerk
+Comment[fr]=Litonpay, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Litonpay, eşten eşe kriptografik sanal para birimi
+Exec=litonpay-qt %u
 Terminal=false
 Type=Application
-Icon=dogecoin128
-MimeType=x-scheme-handler/dogecoin;
+Icon=litonpay128
+MimeType=x-scheme-handler/litonpay;
 Categories=Office;Finance;

@@ -44,9 +44,9 @@ From the root of the repository, run:
 make
 ```
 
-This builds `dogecoind` and `dogecoin-cli`.
+This builds `litonpayd` and `litonpay-cli`.
 
-To also build the Qt GUI (`dogecoin-qt`), install the GUI requirements above and run:
+To also build the Qt GUI (`litonpay-qt`), install the GUI requirements above and run:
 
 ```sh
 ./autogen.sh

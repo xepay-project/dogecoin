@@ -95,12 +95,12 @@
         <translation>Alamat-alamat pengirim</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Berikut merupakan alamat - alamat Dogecoinmu yang berguna untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+        <source>These are your Litonpay addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Berikut merupakan alamat - alamat Litonpaymu yang berguna untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Berikut merupakan alamat - alamat Dogecoinmu yang berguna untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap kali melakukan transaksi.</translation>
+        <source>These are your Litonpay addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Berikut merupakan alamat - alamat Litonpaymu yang berguna untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap kali melakukan transaksi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -205,8 +205,8 @@
         <translation>Konfirmasi pengenkripsian dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Peringatan: Jika kamu mengenkripsi dompet ini dan melupakan kata sandi anda, Kamu akan &lt;b&gt;KEHILANGAN SEMUA DOGECOIN ANDA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITONPAYS&lt;/b&gt;!</source>
+        <translation>Peringatan: Jika kamu mengenkripsi dompet ini dan melupakan kata sandi anda, Kamu akan &lt;b&gt;KEHILANGAN SEMUA LITONPAY ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -217,8 +217,8 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 sekarang akan tertutup untuk menyelesaikan proses enkripsi. Ingatlah bahwa mengenkripsi dompetmu tidak dapat sepenuhnya melindungi dari pencurian dogecoin oleh malware yang menginfeksi komputer Anda.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litonpays from being stolen by malware infecting your computer.</source>
+        <translation>%1 sekarang akan tertutup untuk menyelesaikan proses enkripsi. Ingatlah bahwa mengenkripsi dompetmu tidak dapat sepenuhnya melindungi dari pencurian litonpay oleh malware yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -291,16 +291,16 @@
         <translation>&amp;Kirim Aja</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Kirim koin ke alamat Dogecoin</translation>
+        <source>Send coins to a Litonpay address</source>
+        <translation>Kirim koin ke alamat Litonpay</translation>
     </message>
     <message>
         <source>&amp;Much Receive</source>
         <translation>&amp;Terima Banget</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Minta pembayaran (bikin kode QR dan dogecoin: URI)</translation>
+        <source>Request payments (generates QR codes and litonpay: URIs)</source>
+        <translation>Minta pembayaran (bikin kode QR dan litonpay: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -379,12 +379,12 @@
         <translation>Tandatangani &amp;pesan...</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Tanda tangani sebuah pesan menggunakan alamat Dogecoinmu untuk membuktikan bahwa kamu adalah benar-benar pemilik alamat tersebut</translation>
+        <source>Sign messages with your Litonpay addresses to prove you own them</source>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat Litonpaymu untuk membuktikan bahwa kamu adalah benar-benar pemilik alamat tersebut</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditandatangani oleh suatu alamat Dogecoin tertentu</translation>
+        <source>Verify messages to ensure they were signed with specified Litonpay addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditandatangani oleh suatu alamat Litonpay tertentu</translation>
     </message>
     <message>
         <source>Print paper wallets</source>
@@ -399,8 +399,8 @@
         <translation>Buka konsol debug dan diagnosa</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Litonpay</source>
+        <translation>Litonpay</translation>
     </message>
     <message>
         <source>&amp;Much receiving addresses...</source>
@@ -415,8 +415,8 @@
         <translation>Buka &amp;URI</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Buka URI dogecoin: atau permintaan pembayaran</translation>
+        <source>Open a litonpay: URI or payment request</source>
+        <translation>Buka URI litonpay: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -443,9 +443,9 @@
         <translation>%1 klien</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
+        <source>%n active connection(s) to Litonpay network</source>
         <translation>
-            <numerusform>%n koneksi aktif ke jaringan Dogecoin</numerusform>
+            <numerusform>%n koneksi aktif ke jaringan Litonpay</numerusform>
         </translation>
     </message>
     <message>
@@ -515,8 +515,8 @@
         <translation>Informasi</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Dogecoin yang memungkinkan</translation>
+        <source>Show the %1 help message to get a list with possible Litonpay command-line options</source>
+        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Litonpay yang memungkinkan</translation>
     </message>
     <message>
         <source>Date: %1
@@ -573,8 +573,8 @@
         <translation>Dompet &lt;b&gt;terenkripsi&lt;/b&gt; dan saat ini &lt;b&gt;terkunci&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
-        <translation>Terjadi kesalahan fatal. Dogecoin tidak bisa berlanjut dan akan berhenti.</translation>
+        <source>A fatal error occurred. Litonpay can no longer continue safely and will quit.</source>
+        <translation>Terjadi kesalahan fatal. Litonpay tidak bisa berlanjut dan akan berhenti.</translation>
     </message>
     <message>
         <source>Node</source>
@@ -605,7 +605,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Import a Dogecoin private key</source>
+        <source>Import a Litonpay private key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -803,8 +803,8 @@
         <translation>Ubah alamat pengiriman</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
-        <translation>Kamu memasukan alamat &quot;%1&quot; yang bukan alamat Dogecoin yang valid.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Litonpay address.</source>
+        <translation>Kamu memasukan alamat &quot;%1&quot; yang bukan alamat Litonpay yang valid.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -975,8 +975,8 @@
         <translation>Berhubung ini pertama kali program dijalankan, kamu bisa memilih dimana %1 akan menyimpan datanya.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Dogecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 akan mengunduh dan menyimpan salinan dari rantai blok Dogecoin. Sedikitnya %2GB akan disimpan pada direktori ini, dan akan bertambah secara berkala. Dompet juga akan disimpan dalam direktori ini.</translation>
+        <source>%1 will download and store a copy of the Litonpay block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 akan mengunduh dan menyimpan salinan dari rantai blok Litonpay. Sedikitnya %2GB akan disimpan pada direktori ini, dan akan bertambah secara berkala. Dompet juga akan disimpan dalam direktori ini.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1018,11 +1018,11 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the dogecoin network, as detailed below.</source>
-        <translation>Transaksi terakhir mungkin belum diperlihatkan, karena mungkin saja saldo dompet kamu salah. Informasi ini akan menjadi benar setelah dompetmu tersinkronisasi dengan jaringa dogecoin, seperti tertampil dibawah.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litonpay network, as detailed below.</source>
+        <translation>Transaksi terakhir mungkin belum diperlihatkan, karena mungkin saja saldo dompet kamu salah. Informasi ini akan menjadi benar setelah dompetmu tersinkronisasi dengan jaringa litonpay, seperti tertampil dibawah.</translation>
     </message>
     <message>
-        <source>Attempting to spend dogecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend litonpays that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Mencoba untuk menggunakan koin-koin yang masuk kedalam kategori &quot;transaksi yang belum ditampilkan&quot; tidak akan diterima oleh jaringan.</translation>
     </message>
     <message>
@@ -1180,16 +1180,16 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port klien Dogecoin di router. Hanya berjalan apabila router kami mendukung UPnP dan sudah diaktifkan.</translation>
+        <source>Automatically open the Litonpay client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port klien Litonpay di router. Hanya berjalan apabila router kami mendukung UPnP dan sudah diaktifkan.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Petakan port dengan &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Hubungkan ke jaringan Dogecoin melalui proxy SOCKS5.</translation>
+        <source>Connect to the Litonpay network through a SOCKS5 proxy.</source>
+        <translation>Hubungkan ke jaringan Litonpay melalui proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1228,8 +1228,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Terhubung ke jaringan Dogecoin melalui proxy SOCKS5 yang terpisah untuk layanan tersembunyi Tor.</translation>
+        <source>Connect to the Litonpay network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Terhubung ke jaringan Litonpay melalui proxy SOCKS5 yang terpisah untuk layanan tersembunyi Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1343,8 +1343,8 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompetmu secara otomatis mensinkronisasi dengan jaringan Dogecoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litonpay network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompetmu secara otomatis mensinkronisasi dengan jaringan Litonpay ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1431,7 +1431,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Services that claim to double your dogecoins are always ponzi schemes</source>
+        <source>Services that claim to double your litonpays are always ponzi schemes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1455,7 +1455,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>To see ongoing development and contribute, check out the Dogecoin Core repository on GitHub</source>
+        <source>To see ongoing development and contribute, check out the Litonpay Core repository on GitHub</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1641,8 +1641,8 @@ p, li { white-space: pre-wrap; }
         <translation>Permintaan pembayaran gagal</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Tidak bisa memulai dogecoin: penanganan ketuk-untuk-bayar</translation>
+        <source>Cannot start litonpay: click-to-pay handler</source>
+        <translation>Tidak bisa memulai litonpay: penanganan ketuk-untuk-bayar</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1657,8 +1657,8 @@ p, li { white-space: pre-wrap; }
         <translation>Alamat pembayaran tidak valid %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI tidak bisa diterjemahkan! Bisa disebabkan karena alamat Dogecoin yang salah atau parameter URI yang tidak benar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Litonpay address or malformed URI parameters.</source>
+        <translation>URI tidak bisa diterjemahkan! Bisa disebabkan karena alamat Litonpay yang salah atau parameter URI yang tidak benar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1802,8 +1802,8 @@ Use this functionality with extreme caution.</source>
         <translation>Nilai</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Masukkan alamat Dogecoin (contoh. %1)</translation>
+        <source>Enter a Litonpay address (e.g. %1)</source>
+        <translation>Masukkan alamat Litonpay (contoh. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2290,8 +2290,8 @@ Use this functionality with extreme caution.</source>
         <translation>Gunakan lagi alamat penerima yang ada (tidak disarankan)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Pesan tidak wajib yang dilampirkan dalam permintaan pembayaran, yang akan ditampilkan ketika permintaan telah dibuka. Catatan: Pesan ini tidak akan dikirim bersama dengan pembayaran melalui jaringan Dogecoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litonpay network.</source>
+        <translation>Pesan tidak wajib yang dilampirkan dalam permintaan pembayaran, yang akan ditampilkan ketika permintaan telah dibuka. Catatan: Pesan ini tidak akan dikirim bersama dengan pembayaran melalui jaringan Litonpay.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2551,8 +2551,8 @@ Use this functionality with extreme caution.</source>
         <translation>Dust:</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
-        <translation>Boleh saja membayar hanya biaya minimum selama volume transaksi lebih sedikit daripada ruang di blok yang tersedia. Tetapi ketahuilah bahwa ini bisa menyebabkan transaksimu tidak pernah terkonfirmasi kalau permintaan untuk transaksi terus meningkat melebihi kapasitas jaringan dogecoin.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litonpay transactions than the network can process.</source>
+        <translation>Boleh saja membayar hanya biaya minimum selama volume transaksi lebih sedikit daripada ruang di blok yang tersedia. Tetapi ketahuilah bahwa ini bisa menyebabkan transaksimu tidak pernah terkonfirmasi kalau permintaan untuk transaksi terus meningkat melebihi kapasitas jaringan litonpay.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2663,8 +2663,8 @@ Use this functionality with extreme caution.</source>
         <translation>Cuma membayar biaya yang dibutuhkan dari %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Peringatan: Alamat Dogecoin tidak valid</translation>
+        <source>Warning: Invalid Litonpay address</source>
+        <translation>Peringatan: Alamat Litonpay tidak valid</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2730,8 +2730,8 @@ Use this functionality with extreme caution.</source>
         <translation>Ini adalah pembayaran normal.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>Alamat Dogecoin yang akan dikirimkan bayaran</translation>
+        <source>The Litonpay address to send the payment to</source>
+        <translation>Alamat Litonpay yang akan dikirimkan bayaran</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2750,8 +2750,8 @@ Use this functionality with extreme caution.</source>
         <translation>Hapus masukan ini</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Biaya tersebut akan dipotong dari jumlah yang dikirimkan. Penerima akan menerima dogecoin lebih sedikit daripada yang kamu masukkan diisian jumlah. Jika beberapa penerima dipilih sekaligus, biayanya akan dibagi rata.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less litonpays than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Biaya tersebut akan dipotong dari jumlah yang dikirimkan. Penerima akan menerima litonpay lebih sedikit daripada yang kamu masukkan diisian jumlah. Jika beberapa penerima dipilih sekaligus, biayanya akan dibagi rata.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2774,8 +2774,8 @@ Use this functionality with extreme caution.</source>
         <translation>Masukkan label untuk alamat ini agar dimasukan ke dalam daftar alamat yang pernah digunakan</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>Pesan yang dilampirkan ke dogecoin: URI yang akan disimpan dengan transaksi sebagai referensi kamu. Catatan: Pesan ini tidak akan dikirim bersama dengan pembayaran melalui jaringan Dogecoin.</translation>
+        <source>A message that was attached to the litonpay: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litonpay network.</source>
+        <translation>Pesan yang dilampirkan ke litonpay: URI yang akan disimpan dengan transaksi sebagai referensi kamu. Catatan: Pesan ini tidak akan dikirim bersama dengan pembayaran melalui jaringan Litonpay.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2819,16 +2819,16 @@ Use this functionality with extreme caution.</source>
         <translation>&amp;Tandakan Pesan</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Kamu bisa menandatangani pesan / perjanjian dengan alamat tujuan untuk membuktikan bahwa kamu dapat menerima dogecoin. Berhati-hatilah untuk tidak menandatangani apa pun yang samar atau acak, karena serangan phishing mungkin mencoba menipumy agar menyerahkan identitas. Tetap wasapada dan hanya tanda tangani pernyataan yang detail dan kamu pahami. </translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive litonpays sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Kamu bisa menandatangani pesan / perjanjian dengan alamat tujuan untuk membuktikan bahwa kamu dapat menerima litonpay. Berhati-hatilah untuk tidak menandatangani apa pun yang samar atau acak, karena serangan phishing mungkin mencoba menipumy agar menyerahkan identitas. Tetap wasapada dan hanya tanda tangani pernyataan yang detail dan kamu pahami. </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
         <translation>Pilih alamat yang digunakan sebelumnya</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>Alamat Dogecoin untuk menanda tangani pesan dengan</translation>
+        <source>The Litonpay address to sign the message with</source>
+        <translation>Alamat Litonpay untuk menanda tangani pesan dengan</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2855,8 +2855,8 @@ Use this functionality with extreme caution.</source>
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemilik alamat Dogecoin ini</translation>
+        <source>Sign the message to prove you own this Litonpay address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemilik alamat Litonpay ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2879,12 +2879,12 @@ Use this functionality with extreme caution.</source>
         <translation>Masukkan alamat penerima, pesan (pastikan menyalin jeda baris, spasi, tab, dll dengan tepat) dan tanda tangan di bawah ini untuk memverifikasi pesan. Berhati-hatilah untuk tidak membaca lebih banyak ke dalam tanda tangan daripada apa yang ada di pesan yang ditandatangani itu sendiri, untuk menghindari tertipu oleh serangan man-in-the-middle. Perhatikan bahwa ini hanya membuktikan bahwa pihak yang menandatangani menerima dengan alamat tersebut, tidak dapat membuktikan pengiriman transaksi apa pun!</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>Alamat Dogecoin yang digunakan telah ditandatangani dengan</translation>
+        <source>The Litonpay address the message was signed with</source>
+        <translation>Alamat Litonpay yang digunakan telah ditandatangani dengan</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Verifikasi pesan untuk memastikan telah ditandatangani dengan alamat Dogecoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Litonpay address</source>
+        <translation>Verifikasi pesan untuk memastikan telah ditandatangani dengan alamat Litonpay</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3523,8 +3523,8 @@ Use this functionality with extreme caution.</source>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Litonpay Core</source>
+        <translation>Litonpay Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3855,7 +3855,7 @@ Use this functionality with extreme caution.</source>
         <translation>Gagal</translation>
     </message>
     <message>
-        <source>Bitcoin Core and Dogecoin Core</source>
+        <source>Bitcoin Core and Litonpay Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

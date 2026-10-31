@@ -1,6 +1,6 @@
 [Protocol]
-exec=dogecoin-qt '%u'
-protocol=dogecoin
+exec=litonpay-qt '%u'
+protocol=litonpay
 input=none
 output=none
 helper=true

@@ -1,9 +1,9 @@
-// Copyright (c) 2025 The Dogecoin Core developers
+// Copyright (c) 2025 The Litonpay Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DOGECOIN_AUXCACHE_H
-#define DOGECOIN_AUXCACHE_H
+#ifndef LITONPAY_AUXCACHE_H
+#define LITONPAY_AUXCACHE_H
 
 #include "script/standard.h"  // for CScriptID
 #include "primitives/block.h" // for CBlock
@@ -41,4 +41,4 @@ public:
 
 };
 
-#endif //DOGECOIN_AUXCACHE_H
+#endif //LITONPAY_AUXCACHE_H

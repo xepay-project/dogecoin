@@ -84,7 +84,7 @@ public:
         consensus.BIP66Height = 1034383; // 80d1364201e5df97e696c03bdd24dc885e8617b9de51e453c10a4f629b1e797a - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 4 * 60 * 60; // pre-digishield: 4 hours
-        consensus.nPowTargetSpacing = 60; // 1 minute
+        consensus.nPowTargetSpacing = 2.5 * 60; // 2.5 minute
         consensus.fDigishieldDifficultyCalculation = false;
         consensus.nCoinbaseMaturity = 100;
         consensus.fPowAllowMinDifficultyBlocks = false;

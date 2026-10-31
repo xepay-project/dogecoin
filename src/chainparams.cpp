@@ -215,7 +215,7 @@ public:
         consensus.BIP66Height = 708658; // 21b8b97dcdb94caa67c7f8f6dbf22e61e0cfe0e46e1fff3528b22864659e9b38 - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 4 * 60 * 60; // pre-digishield: 4 hours
-        consensus.nPowTargetSpacing = 60; // 1 minute
+        consensus.nPowTargetSpacing = 2.5 * 60; // 2.5 minute
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 2880; // 2 days (note this is significantly lower than Bitcoin standard)
         consensus.nMinerConfirmationWindow = 10080; // 60 * 24 * 7 = 10,080 blocks, or one week

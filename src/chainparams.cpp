@@ -216,27 +216,22 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
 
-        // Deployment of BIP68, BIP112, and BIP113.
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1456790400; // March 1st, 2016
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1493596800; // May 1st, 2017
 
-        // Deployment of SegWit (BIP141, BIP143, and BIP147)
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1462060800; // May 1st 2016
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
-        // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000540f2f62ff9a26"); // 5,900,000
         consensus.defaultAssumeValid = uint256S("0x199bea6a442310589cbb50a193a30b097c228bd5a0f21af21e4e53dd57c382d3"); // 5,900,000
 
-        // AuxPoW parameters
-        consensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
+        consensus.nAuxpowChainId = 0x0062;
         consensus.fStrictChainId = false;
         consensus.nHeightEffective = 0;
         consensus.fAllowLegacyBlocks = true;
 
-        // Blocks 145000 - 157499 are Digishield without minimum difficulty on all blocks
         digishieldConsensus = consensus;
         digishieldConsensus.nHeightEffective = 145000;
         digishieldConsensus.nPowTargetTimespan = 2.5 * 60; // post-digishield: 2.5 minute
@@ -245,19 +240,16 @@ public:
         digishieldConsensus.fPowAllowMinDifficultyBlocks = false;
         digishieldConsensus.nCoinbaseMaturity = 150;
 
-        // Blocks 157500 - 158099 are Digishield with minimum difficulty on all blocks
         minDifficultyConsensus = digishieldConsensus;
         minDifficultyConsensus.nHeightEffective = 157500;
         minDifficultyConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
         minDifficultyConsensus.fPowAllowMinDifficultyBlocks = true;
 
-        // Enable AuxPoW at 158100
         auxpowConsensus = minDifficultyConsensus;
         auxpowConsensus.nHeightEffective = 158100;
         auxpowConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
         auxpowConsensus.fAllowLegacyBlocks = true;
 
-        // Assemble the binary search tree of parameters
         pConsensusRoot = &digishieldConsensus;
         digishieldConsensus.pLeft = &consensus;
         digishieldConsensus.pRight = &minDifficultyConsensus;
@@ -279,12 +271,11 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
 
         vSeeds.clear();
-        // nodes with support for servicebits filtering should be at the top
         vSeeds.push_back(CDNSSeedData("jrn.me.uk", "testseed.jrn.me.uk"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,113); // 0x71
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196); // 0xc4
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,241); // 0xf1
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,113);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,241);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xcf).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
 
@@ -347,29 +338,25 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 999999999999ULL;
 
-        // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x00");
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        // AuxPow parameters
         consensus.nAuxpowChainId = 0x0062;
         consensus.fStrictChainId = true;
         consensus.fAllowLegacyBlocks = true;
 
-        // Dogecoin parameters
         consensus.fSimplifiedRewards = true;
-        consensus.nCoinbaseMaturity = 60; // For easier testability in RPC tests
+        consensus.nCoinbaseMaturity = 60;
 
         digishieldConsensus = consensus;
         digishieldConsensus.nHeightEffective = 10;
-        digishieldConsensus.nPowTargetTimespan = 1; // regtest: also retarget every second in digishield mode, for conformity
+        digishieldConsensus.nPowTargetTimespan = 1;
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
 
         auxpowConsensus = digishieldConsensus;
         auxpowConsensus.fAllowLegacyBlocks = false;
         auxpowConsensus.nHeightEffective = 20;
 
-        // Assemble the binary search tree of parameters
         digishieldConsensus.pLeft = &consensus;
         digishieldConsensus.pRight = &auxpowConsensus;
         pConsensusRoot = &digishieldConsensus;

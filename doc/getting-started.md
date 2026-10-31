@@ -5,7 +5,7 @@ This tutorial will help you to go through the basics to use Litonpay Core after 
 > **Note:** For simplicity, this guide assumes that executables can be found under the `PATH` environment variable.
 If needed, you can specify their location by typing `PATH=$PATH:/path/to/executables`, or prepend the full path to the command like:
 > ```console
-> shibetoshi:~$ /path/to/litonpay-cli [arguments ...]
+> aldianokto:~$ /path/to/litonpay-cli [arguments ...]
 > ```
 
 ### Table of contents
@@ -28,12 +28,12 @@ If needed, you can specify their location by typing `PATH=$PATH:/path/to/executa
 
 To start your node, you can run a headless server using `litonpayd`:
 ```console
-shibetoshi:~$ litonpayd -daemon
+aldianokto:~$ litonpayd -daemon
 ```
 
 Or you can use the Graphical User Interface (GUI), `litonpay-qt`:
 ```console
-shibetoshi:~$ litonpay-qt
+aldianokto:~$ litonpay-qt
 ```
 
 Detailed logging is recorded in `debug.log`, located in the [data directory](#data-directory).
@@ -53,10 +53,10 @@ To have an overview of the available commands, use the `help` command:
 
 ```console
 #List all commands
-shibetoshi:~$ litonpay-cli help
+aldianokto:~$ litonpay-cli help
 
 #Get help for a specific command
-shibetoshi:~$ litonpay-cli help COMMAND
+aldianokto:~$ litonpay-cli help COMMAND
 ```
 
 Some commands are different, but it's possible to use the [bitcoin RPC API documentation](https://developer.bitcoin.org/reference/rpc/).
@@ -70,7 +70,7 @@ By default, the Litonpay Core software will automatically create an address for 
 You can list wallet addresses using `getaddressesbyaccount`:
 
 ```console
-shibetoshi:~$ litonpay-cli getaddressesbyaccount ""
+aldianokto:~$ litonpay-cli getaddressesbyaccount ""
 [
   "DA2fBazU8Y4epNJ2fQRZCcWpxKZY9HrhLN"
 ]
@@ -78,14 +78,14 @@ shibetoshi:~$ litonpay-cli getaddressesbyaccount ""
 
 Using `getnewaddress` will generate a new wallet address:
 ```console
-shibetoshi:~$ litonpay-cli getnewaddress
+aldianokto:~$ litonpay-cli getnewaddress
 DNnGtXk9khadE7EKCmQzxjnehenX92PKAv
 ```
 
 Private keys are stored in the `wallet.dat` file. You can use `backupwallet` to save a copy:
 
 ```console
-shibetoshi:~$ litonpay-cli backupwallet /path/of/wallet/backup
+aldianokto:~$ litonpay-cli backupwallet /path/of/wallet/backup
 ```
 
 **Tip:** Litonpay addresses start with the letter `D`.
@@ -98,14 +98,14 @@ The total balance of all addresses held in your wallet can be found with the `ge
 
 ```console
 #Syntax
-shibetoshi:~$ litonpay-cli getbalance "*" minconf
+aldianokto:~$ litonpay-cli getbalance "*" minconf
 ```
 
 `minconf` stands for minimum confirmations.
 For example, to see current balance with transaction having at least 5 confirmations:
 
 ```console
-shibetoshi:~$ litonpay-cli getbalance "*" 5
+aldianokto:~$ litonpay-cli getbalance "*" 5
 421.552000
 ```
 
@@ -118,10 +118,10 @@ Litonpay implements the [Unspent Transaction Output (UTXO)](https://en.wikipedia
 It's possible to use a single command to create, sign and send a transaction :
 ```console
 #Syntax
-shibetoshi:~$ litonpay-cli sendtoaddress address amount
+aldianokto:~$ litonpay-cli sendtoaddress address amount
 
 #Example
-shibetoshi:~$ litonpay-cli sendtoaddress nWSYUqtimF7B6qW4GBdczaG6jvqKutS1Nh 420
+aldianokto:~$ litonpay-cli sendtoaddress nWSYUqtimF7B6qW4GBdczaG6jvqKutS1Nh 420
 ```
 
 So much spending power !
@@ -134,10 +134,10 @@ This displays a list of UTXOs associated to addresses kept in the wallet.
 
 ```console
 #Syntax
-shibetoshi:~$ litonpay-cli listunspent minconf maxconf '["address", ...]'
+aldianokto:~$ litonpay-cli listunspent minconf maxconf '["address", ...]'
 
 #Example
-shibetoshi:~$ litonpay-cli listunspent 1 9999999 '["nnJDY1xCRgWQc7vBXHUPMPsEynuZW23Y3P"]'
+aldianokto:~$ litonpay-cli listunspent 1 9999999 '["nnJDY1xCRgWQc7vBXHUPMPsEynuZW23Y3P"]'
 [
   {
     "txid": "b869ed6606d52e6446dc12db02cf868ab693dd5b9f661116269536f0f8fa2433",
@@ -163,7 +163,7 @@ You can now build a new transaction using the available UTXOs from above.
 
 ```console
 #Syntax
-shibetoshi:~$ utxos_to_use='
+aldianokto:~$ utxos_to_use='
   [
     {
       "txid": "id",
@@ -171,17 +171,17 @@ shibetoshi:~$ utxos_to_use='
     },
     ...
   ]'
-shibetoshi:~$ litonpay-cli createrawtransaction "$utxos_to_use" '{"address":amount, ...}'
+aldianokto:~$ litonpay-cli createrawtransaction "$utxos_to_use" '{"address":amount, ...}'
 
 #Example
-shibetoshi:~$ utxos_to_use='
+aldianokto:~$ utxos_to_use='
 [
   {
     "txid": "b869ed6606d52e6446dc12db02cf868ab693dd5b9f661116269536f0f8fa2433",
     "vout": 0
   }
 ]'
-shibetoshi:~$ litonpay-cli createrawtransaction "$utxos_to_use" '{"nWSYUqtimF7B6qW4GBdczaG6jvqKutS1Nh":69, "nnJDY1xCRgWQc7vBXHUPMPsEynuZW23Y3P": 30.999}'
+aldianokto:~$ litonpay-cli createrawtransaction "$utxos_to_use" '{"nWSYUqtimF7B6qW4GBdczaG6jvqKutS1Nh":69, "nnJDY1xCRgWQc7vBXHUPMPsEynuZW23Y3P": 30.999}'
 01000000013324faf8f03695261611669f5bdd93b68a86cf02db12dc46642ed50666ed69b80000000000ffffffff0200a5459b010000001976a91418a89ee36293f15c4db4c01173babd579243161188ac60b8c4b8000000001976a914c6977da37560e1432c2e14e16952981a4c272cac88ac00000000
 ```
 
@@ -195,10 +195,10 @@ Before sending a transaction, it must be signed by the private key that the addr
 
 ```console
 #Syntax
-shibetoshi:~$ litonpay-cli signrawtransaction encoded_transaction
+aldianokto:~$ litonpay-cli signrawtransaction encoded_transaction
 
 #Example
-shibetoshi:~$ litonpay-cli signrawtransaction "01000000013324faf8f03695261611669f5bdd93b68a86cf02db12dc46642ed50666ed69b80000000000ffffffff0200a5459b010000001976a91418a89ee36293f15c4db4c01173babd579243161188ac60b8c4b8000000001976a914c6977da37560e1432c2e14e16952981a4c272cac88ac00000000"
+aldianokto:~$ litonpay-cli signrawtransaction "01000000013324faf8f03695261611669f5bdd93b68a86cf02db12dc46642ed50666ed69b80000000000ffffffff0200a5459b010000001976a91418a89ee36293f15c4db4c01173babd579243161188ac60b8c4b8000000001976a914c6977da37560e1432c2e14e16952981a4c272cac88ac00000000"
 {
   "hex": "01000000013324faf8f03695261611669f5bdd93b68a86cf02db12dc46642ed50666ed69b8000000006a47304402200e1bf722d4335179de170f7c762755b463b3f7b8f026f30950f701bc834f0e6e022036295fdd5e607ca41c4e0e62e59d0911b607bfabedde2424665ffae13564d0e001210388f8f226d12eccd3ba93c1454ec4498b065cea96e29b918fbdb517872ebbf581ffffffff0200a5459b010000001976a91418a89ee36293f15c4db4c01173babd579243161188ac60b8c4b8000000001976a914c6977da37560e1432c2e14e16952981a4c272cac88ac00000000",
   "complete": true
@@ -211,10 +211,10 @@ Finally, broadcast the transaction to the network so that it can be included in 
 
 ```console
 #Syntax
-shibetoshi:~$ litonpay-cli sendrawtransaction signed_transaction
+aldianokto:~$ litonpay-cli sendrawtransaction signed_transaction
 
 #Example
-shibetoshi:~$ litonpay-cli sendrawtransaction 01000000013324faf8f03695261611669f5bdd93b68a86cf02db12dc46642ed50666ed69b8000000006a47304402200e1bf722d4335179de170f7c762755b463b3f7b8f026f30950f701bc834f0e6e022036295fdd5e607ca41c4e0e62e59d0911b607bfabedde2424665ffae13564d0e001210388f8f226d12eccd3ba93c1454ec4498b065cea96e29b918fbdb517872ebbf581ffffffff0200a5459b010000001976a91418a89ee36293f15c4db4c01173babd579243161188ac60b8c4b8000000001976a914c6977da37560e1432c2e14e16952981a4c272cac88ac00000000
+aldianokto:~$ litonpay-cli sendrawtransaction 01000000013324faf8f03695261611669f5bdd93b68a86cf02db12dc46642ed50666ed69b8000000006a47304402200e1bf722d4335179de170f7c762755b463b3f7b8f026f30950f701bc834f0e6e022036295fdd5e607ca41c4e0e62e59d0911b607bfabedde2424665ffae13564d0e001210388f8f226d12eccd3ba93c1454ec4498b065cea96e29b918fbdb517872ebbf581ffffffff0200a5459b010000001976a91418a89ee36293f15c4db4c01173babd579243161188ac60b8c4b8000000001976a914c6977da37560e1432c2e14e16952981a4c272cac88ac00000000
 b4fae2a43cb35f8016a547e9658e061f1da4a043efafecc42f739d46d95dee21
 ```
 
@@ -229,11 +229,11 @@ First, request the information about block 69:
 
 ```console
 #Find block hash from his height
-shibetoshi:~$ litonpay-cli getblockhash 69
+aldianokto:~$ litonpay-cli getblockhash 69
 3d2def20cd0d3aca148741ef469bda11647a3040d7669c82745d03c728706a8b
 
 #Get block data
-shibetoshi:~$ litonpay-cli getblock 3d2def20cd0d3aca148741ef469bda11647a3040d7669c82745d03c728706a8b
+aldianokto:~$ litonpay-cli getblock 3d2def20cd0d3aca148741ef469bda11647a3040d7669c82745d03c728706a8b
 {
   "hash": "3d2def20cd0d3aca148741ef469bda11647a3040d7669c82745d03c728706a8b",
   "confirmations": 7816,
@@ -264,10 +264,10 @@ We can see the entire transaction by querying for its identifier:
 
 ```console
 #Syntax
-shibetoshi:~$ litonpay-cli getrawtransaction txid verbose
+aldianokto:~$ litonpay-cli getrawtransaction txid verbose
 
 #Example
-shibetoshi:~$ litonpay-cli getrawtransaction 695ce4208fa7a87ef9e99805b0910dc129058ecdceb5cef7e25f71dcdc7936db 1
+aldianokto:~$ litonpay-cli getrawtransaction 695ce4208fa7a87ef9e99805b0910dc129058ecdceb5cef7e25f71dcdc7936db 1
 {
   "hex": "01000000010000000000000000000000000000000000000000000000000000000000000000ffffffff0e04d9eea3520101062f503253482fffffffff0100ac6156be23000023210340a42a5ad6c4c0cd5ae539657032e0a359bd3e0f95771f34d71691b13460a624ac00000000",
   "txid": "695ce4208fa7a87ef9e99805b0910dc129058ecdceb5cef7e25f71dcdc7936db",
@@ -314,7 +314,7 @@ Using `litonpayd -help` will display all available configuration parameters that
 
 **Command example :**
 ```console
-shibetoshi:~$ litonpayd -daemon -paytxfee=0.01 -sendfreetransactions=1 -maxconnections=150
+aldianokto:~$ litonpayd -daemon -paytxfee=0.01 -sendfreetransactions=1 -maxconnections=150
 ```
 
 Configuration can be persisted by creating a `litonpay.conf` file. Create it in the directory defined with the `datadir` setting, `$HOME/.litonpay` by default, or specify the file location with `-conf`.

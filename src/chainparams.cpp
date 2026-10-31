@@ -127,7 +127,7 @@ public:
         // Blocks 371337+ are AuxPoW
         auxpowConsensus = digishieldConsensus;
         auxpowConsensus.nHeightEffective = 371337;
-        auxpowConsensus.fAllowLegacyBlocks = false;
+        auxpowConsensus.fAllowLegacyBlocks = true;
 
         // Assemble the binary search tree of consensus parameters
         pConsensusRoot = &digishieldConsensus;

@@ -110,8 +110,8 @@ class P2PPolicyTests(BitcoinTestFramework):
         self.nodes[0].generate(101)
 
         ### test constants ###
-        aldian = Decimal("0.00000001")          # 1 Aldian expressed in DOGE
-        ten = Decimal("10.0")                  # uniform 10 DOGE seed moneys
+        aldian = Decimal("0.00000001")          # 1 Aldian expressed in LTP
+        ten = Decimal("10.0")                  # uniform 10 LTP seed moneys
 
         ### parameters from fee policy ###
         relay_fee = Decimal("0.001")           # DEFAULT_MIN_RELAY_TX_FEE
@@ -129,7 +129,7 @@ class P2PPolicyTests(BitcoinTestFramework):
             self.utxo.append(txid)
         self.nodes[0].generate(1)
 
-        # test legacy output of 1 DOGE output and 1 DOGE fee
+        # test legacy output of 1 LTP output and 1 LTP fee
         output = { self.tgtAddr : 1, self.srcAddr: 8 }
         self.run_relay_test(output)
 

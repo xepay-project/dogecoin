@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/litonpay/litonpay/master/share/pixmaps/litonpay256.svg" alt="Litonpay" width="256"/>
 <br/><br/>
-Litonpay Core [DOGE, Ð]  
+Litonpay Core [LTP, Ð]  
 </h1>
 
 **IMPORTANT: Starting August 2024, the `master` branch has become the primary
@@ -46,7 +46,7 @@ Main development resources:
   follow planned and in-progress work for upcoming releases.
 * [GitHub Discussions](https://github.com/litonpay/litonpay/discussions) is used
   to discuss features, planned and unplanned, related to both the development of
-  the Litonpay Core software, the underlying protocols and the DOGE asset.
+  the Litonpay Core software, the underlying protocols and the LTP asset.
 
 ### Version strategy
 Version numbers are following ```major.minor.patch``` semantics.

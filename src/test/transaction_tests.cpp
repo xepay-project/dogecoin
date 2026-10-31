@@ -688,7 +688,7 @@ BOOST_AUTO_TEST_CASE(test_IsStandard)
 
     std::string reason;
 
-    // Standard: 1 DOGE
+    // Standard: 1 LTP
     t.vout[0].nValue = COIN;
     BOOST_CHECK(IsStandardTx(t, reason));
 

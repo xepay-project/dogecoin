@@ -41,7 +41,7 @@ static const unsigned int DEFAULT_MAX_MEMPOOL_SIZE = 300;
 /** Default for -incrementalrelayfee, which sets the minimum feerate increase
  *  for mempool limiting or BIP 125 replacement
  *
- *  Litonpay:    Increment mempool limits and accept RBF in steps of 0.0001 DOGE
+ *  Litonpay:    Increment mempool limits and accept RBF in steps of 0.0001 LTP
  *  Calculation: DEFAULT_MIN_RELAY_TX_FEE = RECOMMENDED_MIN_TX_FEE / 10
  *               DEFAULT_INCREMENTAL_RELAY_FEE = DEFAULT_MIN_RELAY_TX_FEE / 10
  *

@@ -46,8 +46,8 @@ Currently looking at solutions, which primarily either involve JSON which is not
 to the specification, or making the RPC layer slightly incompatible with the conventional
 Bitcoin API.
 
-This only affects values significantly below 1 Doge, however merchants may wish to round to
-the nearest Doge on all transactions for now.
+This only affects values significantly below 1 Ltp, however merchants may wish to round to
+the nearest Ltp on all transactions for now.
 
 ## Credits
 

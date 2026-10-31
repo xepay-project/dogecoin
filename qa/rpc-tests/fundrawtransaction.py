@@ -513,7 +513,7 @@ class RawTransactionsTest(BitcoinTestFramework):
         self.nodes[0].generate(1)
         self.sync_all()
 
-        #fund a tx with ~20 small inputs, by spending in combination the 22 DOGE we just sent
+        #fund a tx with ~20 small inputs, by spending in combination the 22 LTP we just sent
         inputs = []
         outputs = {self.nodes[0].getnewaddress():16.0,self.nodes[0].getnewaddress():5.9}
         rawTx = self.nodes[1].createrawtransaction(inputs, outputs)

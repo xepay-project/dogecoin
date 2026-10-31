@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/litonpay/litonpay/master/share/pixmaps/litonpay256.svg" alt="Litonpay" width="256"/>
 <br/><br/>
-Litonpay Core [DOGE, Ð]  
+Litonpay Core [LTP, Ð]  
 </h1>
 
 Litonpay là một loại tiền điện tử hướng tới cộng đồng được lấy cảm hứng từ meme Shiba Inu. Phần mềm Litonpay Core cho phép bất kỳ ai vận hành node trong Litonpay blockchain networks và sử dụng phương pháp băm Scrypt cho Proof of Work. Nó được điều chỉnh từ Bitcoin Core và các loại tiền điện tử khác.
@@ -39,7 +39,7 @@ Các nguồn lực phát triển chính::
   theo dõi công việc đã lên kế hoạch và đang tiến hành cho các bản phát hành sắp tới.
 * [GitHub Discussion](https://github.com/litonpay/litonpay/discussions) được sử dụng để
   để thảo luận về các tính năng, được lên kế hoạch và chưa được kế hoạch, liên quan đến
-  sự phát triển của phần mềm Litonpay Core, các giao thức nền tảng và DOGE asset.
+  sự phát triển của phần mềm Litonpay Core, các giao thức nền tảng và LTP asset.
 
 ### Phiên bản Chiến lược
 Số phiên bản tuân theo ngữ nghĩa ```major.minor.patch```.

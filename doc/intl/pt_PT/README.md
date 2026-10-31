@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/litonpay/litonpay/master/share/pixmaps/litonpay256.svg" alt="Litonpay" width="256"/>
 <br/><br/>
-Litonpay Core [DOGE, Ð]  
+Litonpay Core [LTP, Ð]  
 </h1>
 
 Litonpay é uma criptomoeda voltada para a comunidade inspirada num meme Shiba Inu. O software Litonpay Core permite que qualquer pessoa opere um nó nas redes blockchain Litonpay e usa o método de hash Scrypt para Prova de Trabalho. É adaptado do Bitcoin Core e outras criptomoedas.
@@ -35,7 +35,7 @@ O Litonpay Core é um programa de código aberto gerido pela comunidade. O proce
 Recursos principais de Desenvolvimento:
 
 * [Projetos do Github](https://github.com/litonpay/litonpay/projects) é utilizado para conduzir trabalhos planeados ou que estejam em desenvolvimento para as próximas atualizações.
-* [Discussão do Github](https://github.com/litonpay/litonpay/discussions) é usado para discutir sobre as funcionalidades, planeadas ou não, relacionadas ao desenvolvimento do programa Litonpay Core, os protocolos adjacentes e o criptoativo DOGE.
+* [Discussão do Github](https://github.com/litonpay/litonpay/discussions) é usado para discutir sobre as funcionalidades, planeadas ou não, relacionadas ao desenvolvimento do programa Litonpay Core, os protocolos adjacentes e o criptoativo LTP.
 
 ### Estratégia das Versões
 Os numeros de compilação seguem a seguinte semantica:  ```major.minor.patch```

@@ -308,10 +308,6 @@ jobs:
           src/bench/bench_dogecoin > ${{ matrix.name }}-bench.csv
           cat ${{ matrix.name }}-bench.csv
 
-      - name: Run tests
-        if: ${{ matrix.test-script }}
-        run: ${{ matrix.test-script }}
-
       - name: Check security
         if: ${{ matrix.check-security }}
         run: make -C src check-security

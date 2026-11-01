@@ -225,7 +225,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000540f2f62ff9a26"); // 5,900,000
-        consensus.defaultAssumeValid = uint256S("0x199bea6a442310589cbb50a193a30b097c228bd5a0f21af21e4e53dd57c382d3"); // 5,900,000
+        consensus.defaultAssumeValid = uint256S("0x000007d3ef69fd04d17b85eff4a0ff47ec86997f7c29144a338a8b21d0e0f216"); // 5,900,000
 
         consensus.nAuxpowChainId = 0x4425;
         consensus.fStrictChainId = false;
@@ -288,7 +288,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0"))
+            ( 0, uint256S("0x000007d3ef69fd04d17b85eff4a0ff47ec86997f7c29144a338a8b21d0e0f216"))
         };
 
         chainTxData = ChainTxData{

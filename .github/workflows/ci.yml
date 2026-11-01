@@ -24,11 +24,11 @@ jobs:
       CACHE_NONCE: "1"
       WINEDEBUG: fixme-all
       WINEPREFIX: /tmp/wineprefix/
-      # Space-separated list of SDK mirrors, tried in order. dogecoincore is
+      # Space-separated list of SDK mirrors, tried in order. Litonpaycore is
       # primary; additional entries are fallbacks for when it is unreachable
       # (e.g. expired TLS cert). Downloaded tarball is checksum-verified after
       # fetch regardless of which mirror served it.
-      # TODO(revert): trim back to the dogecoincore mirror once its certificate
+      # TODO(revert): trim back to the Litonpaycore mirror once its certificate
       # is renewed.
       SDK_URL: "https://depends.dogecoincore.org https://bitcoincore.org/depends-sources/sdks"
 
@@ -68,7 +68,7 @@ jobs:
             packages: g++-arm-linux-gnueabihf qemu-user-static qemu-user
             run-bench: false
             test-script: |
-              qemu-arm -E LD_LIBRARY_PATH=/usr/arm-linux-gnueabihf/lib/ /usr/arm-linux-gnueabihf/lib/ld-linux-armhf.so.3 src/test/test_dogecoin
+              qemu-arm -E LD_LIBRARY_PATH=/usr/arm-linux-gnueabihf/lib/ /usr/arm-linux-gnueabihf/lib/ld-linux-armhf.so.3 src/test/test_Litonpay
             check-security: true
             check-symbols: true
             dep-opts: "NO_QT=1"
@@ -80,7 +80,7 @@ jobs:
             packages: g++-aarch64-linux-gnu qemu-user-static qemu-user
             run-bench: false
             test-script: |
-              qemu-aarch64 -E LD_LIBRARY_PATH=/usr/aarch64-linux-gnu/lib/ /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1 src/test/test_dogecoin
+              qemu-aarch64 -E LD_LIBRARY_PATH=/usr/aarch64-linux-gnu/lib/ /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1 src/test/test_Litonpay
             check-security: true
             check-symbols: false
             dep-opts: "NO_QT=1"
@@ -92,7 +92,7 @@ jobs:
             packages: g++-aarch64-linux-gnu qemu-user-static qemu-user
             run-bench: false
             test-script: |
-              qemu-aarch64 -E LD_LIBRARY_PATH=/usr/aarch64-linux-gnu/lib/ /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1 src/test/test_dogecoin
+              qemu-aarch64 -E LD_LIBRARY_PATH=/usr/aarch64-linux-gnu/lib/ /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1 src/test/test_Litonpay
             check-security: true
             check-symbols: true
             dep-opts: "NO_QT=1"
@@ -211,7 +211,7 @@ jobs:
     runs-on: ubuntu-24.04
     container:
       image: ${{ matrix.container }}
-      options: ${{ matrix.container-options == '' && '-e 1DOGE=1DOGE' || matrix.container-options }}
+      options: ${{ matrix.container-options == '' && '-e 1LTP=1LTP' || matrix.container-options }}
 
     steps:
       - name: Configure container
@@ -295,7 +295,7 @@ jobs:
           path: ~/.ccache
           key: ${{ matrix.name }}-${{ env.cache-name }}-${{ hashFiles('**/configure.ac', '.github/workflows/ci.yml') }}
 
-      - name: Build Dogecoin
+      - name: Build Litonpay
         run: |
           depends/${{ matrix.host }}/native/bin/ccache --max-size=$CCACHE_SIZE
           ./autogen.sh
@@ -305,7 +305,7 @@ jobs:
       - name: Run benchmark
         if: ${{ matrix.run-bench }}
         run: |
-          src/bench/bench_dogecoin > ${{ matrix.name }}-bench.csv
+          src/bench/bench_Litonpay > ${{ matrix.name }}-bench.csv
           cat ${{ matrix.name }}-bench.csv
 
       - name: Check security
@@ -323,8 +323,8 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v6
         with:
-          name: dogecoin-${{ github.sha }}-${{ matrix.name }}
+          name: Litonpay-${{ github.sha }}-${{ matrix.name }}
           path: |
-            depends/${{ matrix.host }}/bin/dogecoin*
-            dist/Dogecoin-Qt.app
+            depends/${{ matrix.host }}/bin/Litonpay*
+            dist/Litonpay-Qt.app
             ${{ matrix.name }}-bench.csv

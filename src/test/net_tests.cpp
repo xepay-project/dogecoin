@@ -213,7 +213,7 @@ BOOST_AUTO_TEST_CASE(ipv4_peer_with_ipv6_addrMe_test)
     BOOST_CHECK(1);
 }
 
-static CAddress MakeAddr(const char* ipstr, unsigned short port = 22556)
+static CAddress MakeAddr(const char* ipstr, unsigned short port = 7855)
 {
     CService svc;
     Lookup(ipstr, svc, port, false);

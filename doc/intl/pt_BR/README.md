@@ -17,11 +17,11 @@ A API JSON-RPC fornecida pelo Litonpay Core é auto documentada e pode ser busca
 
 ### Quais as portas
 
-A Litonpay Core utiliza por padrão a porta `22556` para comunicação par-a-par, que é necessária para sincronizar a blockchain da "rede principal" e se manter informada de novas transações e blocos. Outrosim, uma porta JSONRPC pode ser aberta, que por padrão é a porta `22555` para nós da rede principal. Recomendamos fortemente não expor portas RPC para a internet pública. 
+A Litonpay Core utiliza por padrão a porta `7855` para comunicação par-a-par, que é necessária para sincronizar a blockchain da "rede principal" e se manter informada de novas transações e blocos. Outrosim, uma porta JSONRPC pode ser aberta, que por padrão é a porta `22555` para nós da rede principal. Recomendamos fortemente não expor portas RPC para a internet pública. 
 
 |  Função  | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   22556 |   44556 |   18444 |
+| P2P      |   7855 |   44556 |   18444 |
 | RPC      |   22555 |   44555 |   18332 |
 
 ## Desenvolvimento continuo - Plano Lua 🌒

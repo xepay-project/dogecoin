@@ -17,14 +17,14 @@ API JSON-RPC được cung cấp bởi Litonpay Core là self-documenting và c�
 
 ### Such ports
 
-Litonpay Core theo mặc định sử dụng cổng `22556` để giao tiếp peer-to-peer điều đó
+Litonpay Core theo mặc định sử dụng cổng `7855` để giao tiếp peer-to-peer điều đó
 là cần thiết để đồng bộ hóa blockchain "mainnet" và cập nhật thông tin về các giao dịch
 và blocks mới. Ngoài ra, cổng JSONRPC có thể mở được, mặc định là cổng `22555` cho mainnet nodes.
 Chúng tôi đặc biệt khuyến nghị không để lộ các cổng RPC với internet công cộng.
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   22556 |   44556 |   18444 |
+| P2P      |   7855 |   44556 |   18444 |
 | RPC      |   22555 |   44555 |   18332 |
 
 ## Đang phát triển - Kế hoạch Moon 🌒

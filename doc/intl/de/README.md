@@ -26,14 +26,14 @@ Die in Litonpay Core enthaltene JSON-RPC-API ist selbstdokumentiert und kann mit
 Litonpay Core verwendet den Port `7855` als Standart-Port zur Kommunikation
 mit dem Peer-to-Peer Netzwerk und um die "Mainnet" Blockchain zu synchronisieren.
 Dies ist notwendig um über neue Transaktionen und Blöcke informiert zu bleiben.
-Zusätzlich kann ein JSON-RPC-Port geöffnet werden, welcher den Port `22555` als Standart-Port für Mainnet-Nodes verwendet.
+Zusätzlich kann ein JSON-RPC-Port geöffnet werden, welcher den Port `7854` als Standart-Port für Mainnet-Nodes verwendet.
 
 **Es wird STRENGSTENS davon abgeraten, RPC-Ports im öffentlichen Internet sichtbar zu machen!**
 
 | Funktion | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
 | P2P      |   7855 |   8355 |   15444 |
-| RPC      |   22555 |   44555 |   18332 |
+| RPC      |   7854 |   8354 |   18332 |
 
 ## Laufende Entwicklungen - Fahrplan zum Mond 🌒
 

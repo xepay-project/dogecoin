@@ -18,12 +18,12 @@ L'API JSON-RPC fournie par Litonpay Core est auto-documentée et peut être parc
 
 ### Les ports
 
-Litonpay Core utilise par défaut le port `7855` pour la communication pair-à-pair qui est nécessaire pour synchroniser la blockchain au "mainnet" et rester informé des nouvelles transactions et blocs. De plus, un port JSONRPC peut être ouvert, dont par défaut le port `22555` est utilisé pour les nœuds du réseau principal. Il est fortement recommandé de ne pas exposer les ports RPC à l'Internet public.
+Litonpay Core utilise par défaut le port `7855` pour la communication pair-à-pair qui est nécessaire pour synchroniser la blockchain au "mainnet" et rester informé des nouvelles transactions et blocs. De plus, un port JSONRPC peut être ouvert, dont par défaut le port `7854` est utilisé pour les nœuds du réseau principal. Il est fortement recommandé de ne pas exposer les ports RPC à l'Internet public.
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
 | P2P      |   7855 |   8355 |   15444 |
-| RPC      |   22555 |   44555 |   18332 |
+| RPC      |   7854 |   8354 |   18332 |
 
 ## Développement continu - Moon plan 🌒
 

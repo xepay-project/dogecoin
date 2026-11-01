@@ -47,7 +47,7 @@ Your node is now running and starts with a *synchronization process* that downlo
 
 Litonpay Core exposes a JSON-RPC interface that allows you to request information about the network, blockchain and individual transactions, send transactions to the networks and manage your wallet.
 
-The Litonpay Core installation provides the `litonpay-cli` tool to interact with the JSON-RPC from the command line, and the interface is exposed over HTTP on port `22555`, so that other tools and libraries can interact with it.
+The Litonpay Core installation provides the `litonpay-cli` tool to interact with the JSON-RPC from the command line, and the interface is exposed over HTTP on port `7854`, so that other tools and libraries can interact with it.
 
 To have an overview of the available commands, use the `help` command:
 
@@ -371,7 +371,7 @@ A node can expose 2 different ports: one port for the **Peer to Peer Network** (
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
 | P2P      |   7855 |   8355 |   15444 |
-| RPC      |   22555 |   44555 |   18332 |
+| RPC      |   7854 |   8354 |   18332 |
 
 To configure them use the `-port` and `-rpcport` parameters.
 

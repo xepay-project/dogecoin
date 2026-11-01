@@ -262,13 +262,13 @@ public:
         nDefaultPort = 8355;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1391503289, 997879, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1793513539, 1514122, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         minDifficultyConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0xbb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e"));
-        assert(genesis.hashMerkleRoot == uint256S("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000007d3ef69fd04d17b85eff4a0ff47ec86997f7c29144a338a8b21d0e0f216"));
+        assert(genesis.hashMerkleRoot == uint256S("0xd20d7fa0def6add36e043cc03103c069b3ed519feebc352c4080b981d4b14b6c"));
 
         vSeeds.clear();
         // vSeeds.push_back(CDNSSeedData("jrn.me.uk", "testseed.jrn.me.uk"));

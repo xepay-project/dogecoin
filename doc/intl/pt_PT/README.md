@@ -26,7 +26,7 @@ porta JSONRPC pode ser aberta que por defeito é `7854` para a rede principal.
 |  Função  | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
 | P2P      |   7855 |   8355 |   15444 |
-| RPC      |   7854 |   8354 |   18332 |
+| RPC      |   7854 |   8354 |   15443 |
 
 ## Desenvolvimento continuo - Plano Lua 🌒
 

@@ -23,7 +23,7 @@ Litonpay Core utilise par défaut le port `7855` pour la communication pair-à-p
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
 | P2P      |   7855 |   8355 |   15444 |
-| RPC      |   7854 |   8354 |   18332 |
+| RPC      |   7854 |   8354 |   15443 |
 
 ## Développement continu - Moon plan 🌒
 

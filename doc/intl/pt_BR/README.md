@@ -22,7 +22,7 @@ A Litonpay Core utiliza por padrão a porta `7855` para comunicação par-a-par,
 |  Função  | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
 | P2P      |   7855 |   8355 |   15444 |
-| RPC      |   7854 |   8354 |   18332 |
+| RPC      |   7854 |   8354 |   15443 |
 
 ## Desenvolvimento continuo - Plano Lua 🌒
 

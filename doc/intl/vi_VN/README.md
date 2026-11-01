@@ -25,7 +25,7 @@ Chúng tôi đặc biệt khuyến nghị không để lộ các cổng RPC vớ
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
 | P2P      |   7855 |   8355 |   15444 |
-| RPC      |   7854 |   8354 |   18332 |
+| RPC      |   7854 |   8354 |   15443 |
 
 ## Đang phát triển - Kế hoạch Moon 🌒
 

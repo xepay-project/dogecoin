@@ -31,7 +31,7 @@ expose RPC ports to the public internet.
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   7855 |   44556 |   18444 |
+| P2P      |   7855 |   8355 |   18444 |
 | RPC      |   22555 |   44555 |   18332 |
 
 ## Ongoing development - Moon plan 🌒

@@ -43,7 +43,7 @@ config file):
 
 	HiddenServiceDir /var/lib/tor/litonpay-service/
 	HiddenServicePort 7855 127.0.0.1:7855
-	HiddenServicePort 44556 127.0.0.1:44556
+	HiddenServicePort 8355 127.0.0.1:8355
 
 The directory can be different of course, but (both) port numbers should be equal to
 your litonpayd's P2P listen port (7855 by default).

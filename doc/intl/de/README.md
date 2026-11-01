@@ -32,7 +32,7 @@ Zusätzlich kann ein JSON-RPC-Port geöffnet werden, welcher den Port `22555` al
 
 | Funktion | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   7855 |   44556 |   18444 |
+| P2P      |   7855 |   8355 |   18444 |
 | RPC      |   22555 |   44555 |   18332 |
 
 ## Laufende Entwicklungen - Fahrplan zum Mond 🌒

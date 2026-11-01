@@ -25,7 +25,7 @@ porta JSONRPC pode ser aberta que por defeito é `22555` para a rede principal.
 
 |  Função  | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   7855 |   44556 |   18444 |
+| P2P      |   7855 |   8355 |   18444 |
 | RPC      |   22555 |   44555 |   18332 |
 
 ## Desenvolvimento continuo - Plano Lua 🌒

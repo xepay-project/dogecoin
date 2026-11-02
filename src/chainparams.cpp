@@ -121,7 +121,7 @@ public:
 
         auxpowConsensus = digishieldConsensus;
         auxpowConsensus.nHeightEffective = 371337;
-        auxpowConsensus.fAllowLegacyBlocks = false;
+        auxpowConsensus.fAllowLegacyBlocks = true;
 
         pConsensusRoot = &digishieldConsensus;
         digishieldConsensus.pLeft = &consensus;

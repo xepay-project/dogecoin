@@ -354,7 +354,7 @@ public:
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
 
         auxpowConsensus = digishieldConsensus;
-        auxpowConsensus.fAllowLegacyBlocks = false;
+        auxpowConsensus.fAllowLegacyBlocks = true;
         auxpowConsensus.nHeightEffective = 20;
 
         digishieldConsensus.pLeft = &consensus;

@@ -1,14 +1,14 @@
 *.tar.gz
 
 *.exe
-src/dogecoin
-src/dogecoind
-src/dogecoin-cli
-src/dogecoin-tx
-src/test/test_dogecoin
-src/test/test_dogecoin_fuzzy
-src/qt/test/test_dogecoin-qt
-src/bench/bench_dogecoin
+src/litonpay
+src/litonpayd
+src/litonpay-cli
+src/litonpay-tx
+src/test/test_litonpay
+src/test/test_litonpay_fuzzy
+src/qt/test/test_litonpay-qt
+src/bench/bench_litonpay
 
 # autoreconf
 Makefile.in
@@ -83,7 +83,7 @@ Bitcoin-Qt.app
 
 # Unit-tests
 Makefile.test
-dogecoin-qt_test
+litonpay-qt_test
 src/test/buildenv.py
 
 # Resources cpp

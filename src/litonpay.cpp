@@ -130,7 +130,7 @@ CAmount GetLitonpayBlockSubsidy(int nHeight, const Consensus::Params& consensusP
         return 0;
 
     CAmount nSubsidy = 50 * COIN;
-    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
+    // Subsidy is cut in half every 2850000 blocks
     nSubsidy >>= halvings;
     return nSubsidy;
 }

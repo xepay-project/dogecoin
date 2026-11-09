@@ -105,7 +105,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000e993d2aa86cf246a49b"); // 5,050,000
-        consensus.defaultAssumeValid = uint256S("0x00000c9d2de90d2aaa4e930e127793f60127745c2fcc19eacb810ce1b97331da"); // 5,050,000
+        consensus.defaultAssumeValid = uint256S("0xf9373079f9d3f47cf19bc8de7801ee3a3b4bb007da15d459da20fc88ca85066c");
 
         consensus.nAuxpowChainId = 0x4425;
         consensus.fStrictChainId = true;
@@ -143,8 +143,8 @@ public:
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x00000c9d2de90d2aaa4e930e127793f60127745c2fcc19eacb810ce1b97331da"));
-        assert(genesis.hashMerkleRoot == uint256S("0xd20d7fa0def6add36e043cc03103c069b3ed519feebc352c4080b981d4b14b6c"));
+        assert(consensus.hashGenesisBlock == uint256S("0xf9373079f9d3f47cf19bc8de7801ee3a3b4bb007da15d459da20fc88ca85066c"));
+        assert(genesis.hashMerkleRoot == uint256S("0xd93ae3bf3ac5f9c7a8e15314d475624c5f5c238a9cb67c8256cbc27b2027ddd2"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         // vSeeds.push_back(CDNSSeedData("multidoge.org", "seed.multidoge.org", true));
@@ -165,7 +165,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (      0, uint256S("0x00000c9d2de90d2aaa4e930e127793f60127745c2fcc19eacb810ce1b97331da"))
+            (      0, uint256S("0xf9373079f9d3f47cf19bc8de7801ee3a3b4bb007da15d459da20fc88ca85066c"))
         };
 
         chainTxData = ChainTxData{

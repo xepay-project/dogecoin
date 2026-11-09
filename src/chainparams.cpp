@@ -225,7 +225,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000540f2f62ff9a26"); // 5,900,000
-        consensus.defaultAssumeValid = uint256S("0x000007d3ef69fd04d17b85eff4a0ff47ec86997f7c29144a338a8b21d0e0f216"); // 5,900,000
+        consensus.defaultAssumeValid = uint256S("0xd1bc513c3fd7cfb27329f2d0f33ed3a109753b544b440c1ccff023395e97ec34");
 
         consensus.nAuxpowChainId = 0x4425;
         consensus.fStrictChainId = false;
@@ -267,8 +267,8 @@ public:
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         minDifficultyConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x000007d3ef69fd04d17b85eff4a0ff47ec86997f7c29144a338a8b21d0e0f216"));
-        assert(genesis.hashMerkleRoot == uint256S("0xd20d7fa0def6add36e043cc03103c069b3ed519feebc352c4080b981d4b14b6c"));
+        assert(consensus.hashGenesisBlock == uint256S("0xd1bc513c3fd7cfb27329f2d0f33ed3a109753b544b440c1ccff023395e97ec34"));
+        assert(genesis.hashMerkleRoot == uint256S("0xd93ae3bf3ac5f9c7a8e15314d475624c5f5c238a9cb67c8256cbc27b2027ddd2"));
 
         vSeeds.clear();
         // vSeeds.push_back(CDNSSeedData("jrn.me.uk", "testseed.jrn.me.uk"));
@@ -288,7 +288,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x000007d3ef69fd04d17b85eff4a0ff47ec86997f7c29144a338a8b21d0e0f216"))
+            ( 0, uint256S("0xd1bc513c3fd7cfb27329f2d0f33ed3a109753b544b440c1ccff023395e97ec34"))
         };
 
         chainTxData = ChainTxData{

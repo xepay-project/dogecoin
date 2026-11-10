@@ -30,7 +30,7 @@ jobs:
       # fetch regardless of which mirror served it.
       # TODO(revert): trim back to the litonpaycore mirror once its certificate
       # is renewed.
-      SDK_URL: "https://depends.dogecoincore.org https://bitcoincore.org/depends-sources/sdks"
+      SDK_URL: "https://depends.litonpaycore.org https://bitcoincore.org/depends-sources/sdks"
 
     strategy:
       fail-fast: false

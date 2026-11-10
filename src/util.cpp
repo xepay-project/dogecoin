@@ -106,8 +106,8 @@ using namespace std;
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "dogecoin.conf";
-const char * const BITCOIN_PID_FILENAME = "dogecoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "litonpay.conf";
+const char * const BITCOIN_PID_FILENAME = "litonpayd.pid";
 
 CCriticalSection cs_args;
 map<string, string> mapArgs;
@@ -471,7 +471,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "dogecoin";
+    const char* pszModule = "litonpay";
 #endif
     if (pex)
         return strprintf(
@@ -496,7 +496,7 @@ fs::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Dogecoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Litonpay";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -506,10 +506,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Dogecoin";
+    return pathRet / "Library/Application Support/Litonpay";
 #else
     // Unix
-    return pathRet / ".dogecoin";
+    return pathRet / ".litonpay";
 #endif
 #endif
 }

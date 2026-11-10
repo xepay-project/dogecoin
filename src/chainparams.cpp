@@ -372,7 +372,7 @@ public:
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0xcbffedbff1865c16f822aaddb87d933137d6c5d6a800048d04854b90e7c1688c"));
+        assert(consensus.hashGenesisBlock == uint256S("0x108fbdf71194deba79bfa4cc9740163774bc891924b61fe109a926e632a6d07c"));
         assert(genesis.hashMerkleRoot == uint256S("0xd93ae3bf3ac5f9c7a8e15314d475624c5f5c238a9cb67c8256cbc27b2027ddd2"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
@@ -385,7 +385,7 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0xcbffedbff1865c16f822aaddb87d933137d6c5d6a800048d04854b90e7c1688c"))
+            ( 0, uint256S("0x108fbdf71194deba79bfa4cc9740163774bc891924b61fe109a926e632a6d07c"))
         };
 
         chainTxData = ChainTxData{

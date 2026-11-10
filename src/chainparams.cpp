@@ -368,7 +368,7 @@ public:
         nDefaultPort = 15444;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1794312000, 0, 0x207fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1794342360, 0, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;

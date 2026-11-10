@@ -137,6 +137,13 @@ inline bool IsSwitchChar(char c)
 bool IsArgSet(const std::string& strArg);
 
 /**
+ * Return true if any of -?, -h, -help, -help-debug or -version was passed
+ * on the command line, i.e. the daemon should print usage/version text and
+ * exit rather than start.
+ */
+bool HelpRequested();
+
+/**
  * Return string argument or default value
  *
  * @param strArg Argument to get (e.g. "-foo")
@@ -215,7 +222,7 @@ void RenameThread(const char* name);
  */
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("litonpay-%s", name);
+    std::string s = strprintf("dogecoin-%s", name);
     RenameThread(s.c_str());
     try
     {

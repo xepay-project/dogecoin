@@ -225,7 +225,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000540f2f62ff9a26"); // 5,900,000
-        consensus.defaultAssumeValid = uint256S("0x2f23c02baff6c600c98d8e90a683e45c1bfd957da300fcf782ebf118e58603b2");
+        consensus.defaultAssumeValid = uint256S("0xc393aca5ff64425013384c192ef7a0f4995912f8527b3ab392d6d18abddafe97");
 
         consensus.nAuxpowChainId = 0x4425;
         consensus.fStrictChainId = false;
@@ -262,12 +262,12 @@ public:
         nDefaultPort = 8355;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1793530800, 1494597, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1794308400, 859858, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         minDifficultyConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x2f23c02baff6c600c98d8e90a683e45c1bfd957da300fcf782ebf118e58603b2"));
+        assert(consensus.hashGenesisBlock == uint256S("0xc393aca5ff64425013384c192ef7a0f4995912f8527b3ab392d6d18abddafe97"));
         assert(genesis.hashMerkleRoot == uint256S("0xd93ae3bf3ac5f9c7a8e15314d475624c5f5c238a9cb67c8256cbc27b2027ddd2"));
 
         vSeeds.clear();
@@ -288,7 +288,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x2f23c02baff6c600c98d8e90a683e45c1bfd957da300fcf782ebf118e58603b2"))
+            ( 0, uint256S("0xc393aca5ff64425013384c192ef7a0f4995912f8527b3ab392d6d18abddafe97"))
         };
 
         chainTxData = ChainTxData{
